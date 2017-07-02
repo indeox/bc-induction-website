@@ -9,7 +9,7 @@ class MenuBar extends Component {
 				<header>
 					<nav>
 						<ul>
-							<li><Link to='/'>BC Organisation</Link></li>
+							<li><Link to='/'>BC Homepage</Link></li>
 							<li><Link to='QuizPage'>Quiz</Link></li>
 							<li><Link to='OurValues'>Our Values</Link></li>
 							<li><Link to='About'>About</Link></li>

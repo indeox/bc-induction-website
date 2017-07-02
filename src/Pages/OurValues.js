@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class OurValues extends Component {
 	render() {
 		return (
-			<p>{this.props.title}</p>
+			<h1>Our Values</h1>
 		);
 	}
 }

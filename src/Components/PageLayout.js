@@ -12,7 +12,7 @@ export default class PageLayout extends Component {
 			<main>
 				<Switch>
 					<Route exact path='/' component={WelcomePage} />
-					<Route path='/Quiz' component={QuizPage} />
+					<Route path='/QuizPage' component={QuizPage} />
 					<Route path='/OurValues' component={OurValues} />
 					<Route path='/About' component={About} />
 				</Switch>
