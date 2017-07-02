@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 class PageHead extends Component {
 	render() {
 		return (
-			<head>
-				<title>BC Induction</title>
-			</head>
+			<p>{this.props.title}</p>
 		);
 	}
 }
