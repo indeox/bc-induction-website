@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PageHead extends Component {
+class OurValues extends Component {
 	render() {
 		return (
 			<p>{this.props.title}</p>
@@ -8,4 +8,4 @@ class PageHead extends Component {
 	}
 }
 
-export default PageHead;
+export default OurValues;
