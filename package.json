@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "history": "^1.17.0",
     "react": "^15.6.1",
     "react-addons-update": "^15.6.0",

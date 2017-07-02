@@ -6,16 +6,12 @@ class MenuBar extends Component {
 	render() {
 		return (
 			<div>
-				<header>
-					<nav>
-						<ul>
-							<li><Link to='/'>BC Homepage</Link></li>
-							<li><Link to='QuizPage'>Quiz</Link></li>
-							<li><Link to='OurValues'>Our Values</Link></li>
-							<li><Link to='About'>About</Link></li>
-						</ul>
-					</nav>
-				</header>
+				<ul>
+					<li><Link to='/'>BC Homepage</Link></li>
+					<li><Link to='QuizPage'>Quiz</Link></li>
+					<li><Link to='OurValues'>Our Values</Link></li>
+					<li><Link to='About'>About</Link></li>
+				</ul>
 			</div>
 		);
 	}
