@@ -65,7 +65,7 @@ export default class About extends Component {
 				</div>
 
 				<footer className="container-fluid text-center">
-				  	<p><span className='glyphicon glyphicon-copyright-mark'></span> British Council 2017</p>  
+				  	<p>&copy; British Council 2017</p>  
 				</footer>
 
 			</div>
