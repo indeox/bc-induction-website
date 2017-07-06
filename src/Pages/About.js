@@ -63,11 +63,6 @@ export default class About extends Component {
 				    	</div>  
 				  	</div>
 				</div>
-
-				<footer className="container-fluid text-center">
-				  	<p>&copy; British Council 2017</p>  
-				</footer>
-
 			</div>
 		);
 	}

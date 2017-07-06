@@ -58,12 +58,7 @@ export default class OurValues extends Component {
 			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
 			            </div>
 			        </div>
-
 			    <br />
-			    <footer className="container-fluid text-center">
-				  	<p>&copy; British Council 2017</p>  
-				</footer>
-
 			    </div>
 			</div>
 		);
