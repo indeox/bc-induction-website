@@ -38,13 +38,15 @@ export default class QuizPage extends Component {
 
 		return (
 			<div>
-				<Parallax ref='parallax' pages={4}>
+				<Parallax ref='parallax' pages={6.25}>
 
 					<Parallax.Layer offset={0} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={0.5} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={1.5} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={2} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={2.9} speed={0.5} style={{ backgroundColor: 'black' }} />
+                	<Parallax.Layer offset={4} speed={0.5} style={{ backgroundColor: 'black' }} />
+                	<Parallax.Layer offset={5} speed={0.5} style={{ backgroundColor: 'black' }} />
 
 					{/* Page 1 */}
 				    <Parallax.Layer offset={0} speed={0.5} onClick={() => this.refs.parallax.scrollTo(0.6)} >
@@ -73,7 +75,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 				    {/* Page 3 */}
-				    <Parallax.Layer offset={1.5} speed={0.5} onClick={() => this.refs.parallax.scrollTo(2.2)}>
+				    <Parallax.Layer offset={1.57} speed={0.5} onClick={() => this.refs.parallax.scrollTo(2.2)}>
 				        <div className="slide" id='slide3'>
 						  	<div className="title">
 						    	<h1>Growing tensions...</h1>
@@ -91,10 +93,10 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 				    {/* Page 4 */}
-				    <Parallax.Layer offset={2.1} speed={0.3} onClick={() => this.refs.parallax.scrollTo(2.5)} >
+				    <Parallax.Layer offset={2.2} speed={0.3} onClick={() => this.refs.parallax.scrollTo(2.5)} >
 				        <div className="slide" id='slide4'>
 						  	<div className="titleright">
-						    	<h1>Royal Charter Time</h1>
+						    	<h1>Royal Charter</h1>
 								Our mission in the Royal Charter was stated as: “promoting a wider knowledge of [the United Kingdom] 
 								and the English language abroad and developing closer cultural relations between [the UK] and other 
 								countries”.
@@ -102,9 +104,51 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 					{/* Page 5 */}
-				    
+				    <Parallax.Layer offset={3} speed={0.15} onClick={() => this.refs.parallax.scrollTo(4)} >
+				        <div className="slide" id='slide5'>
+						  	<div className="title">
+						    	<h1>Our work in classrooms</h1>
+								Our mission in the Royal Charter was stated as: “promoting a wider knowledge of [the United Kingdom] 
+								and the English language abroad and developing closer cultural relations between [the UK] and other 
+								countries”.
+						  	</div>
+						</div>
+				    </Parallax.Layer>
 				    {/* Page 6 */}
-				    <Parallax.Layer offset={3} speed={1}>
+				    <Parallax.Layer offset={3.95} speed={0.75} onClick={() => this.refs.parallax.scrollTo(5)} >
+				        <div className="slide" id='slide6'>
+						  	<div className="titleright">
+						    	<h1>Our work in classrooms</h1>
+								Our mission in the Royal Charter was stated as: "promoting a wider knowledge of [the United Kingdom] 
+								and the English language abroad and developing closer cultural relations between [the UK] and other 
+								countries".
+						  	</div>
+						</div>
+				    </Parallax.Layer>
+				    {/* Page 7 */}
+				    <Parallax.Layer offset={4.3} speed={0.5} onClick={() => this.refs.parallax.scrollTo(5)} >
+				        <div className="slide" id='slide7'>
+						  	<div className="title">
+						    	<h1>Our work in classrooms</h1>
+								Our mission in the Royal Charter was stated as: "promoting a wider knowledge of [the United Kingdom] 
+								and the English language abroad and developing closer cultural relations between [the UK] and other 
+								countries".
+						  	</div>
+						</div>
+				    </Parallax.Layer>
+				    {/* Page 8 */}
+				    <Parallax.Layer offset={4.99} speed={0.3} onClick={() => this.refs.parallax.scrollTo(5)} >
+				        <div className="slide" id='slide8'>
+						  	<div className="titleright">
+						    	<h1>Our work in classrooms</h1>
+								Our mission in the Royal Charter was stated as: "promoting a wider knowledge of [the United Kingdom] 
+								and the English language abroad and developing closer cultural relations between [the UK] and other 
+								countries".
+						  	</div>
+						</div>
+				    </Parallax.Layer>
+					{/* Page 9 */}
+				    <Parallax.Layer offset={5.5} speed={1}>
 				        <span><img src={modern_bc} height='100%' width='100%' alt='#' /></span>
 				    </Parallax.Layer>
 				</Parallax>
