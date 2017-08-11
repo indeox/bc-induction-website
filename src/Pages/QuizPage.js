@@ -41,7 +41,7 @@ export default class QuizPage extends Component {
 				<Parallax ref='parallax' pages={4}>
 
 					<Parallax.Layer offset={0} speed={1} style={{ backgroundColor: 'black' }} />
-					<Parallax.Layer offset={1} speed={1} style={{ backgroundColor: 'black' }} />
+					<Parallax.Layer offset={0.5} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={1.5} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={2} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={2.9} speed={0.5} style={{ backgroundColor: 'black' }} />
@@ -59,7 +59,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 				    {/* Page 2 */}
-				    <Parallax.Layer offset={0.99} speed={0.65} onClick={() => this.refs.parallax.scrollTo(1.27)} >
+				    <Parallax.Layer offset={0.99} speed={0.4} onClick={() => this.refs.parallax.scrollTo(1.27)} >
 				        <div className="slide" id='slide2'>
 						  	<div className="titleright">
 						    	<h1>Growing tensions...</h1>
@@ -73,7 +73,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 				    {/* Page 3 */}
-				    <Parallax.Layer offset={1.3} speed={0.5} onClick={() => this.refs.parallax.scrollTo(2.2)}>
+				    <Parallax.Layer offset={1.5} speed={0.5} onClick={() => this.refs.parallax.scrollTo(2.2)}>
 				        <div className="slide" id='slide3'>
 						  	<div className="title">
 						    	<h1>Growing tensions...</h1>
@@ -91,10 +91,10 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 				    {/* Page 4 */}
-				    <Parallax.Layer offset={2.2} speed={0} onClick={() => this.refs.parallax.scrollTo(2.5)} >
+				    <Parallax.Layer offset={2.1} speed={0.3} onClick={() => this.refs.parallax.scrollTo(2.5)} >
 				        <div className="slide" id='slide4'>
 						  	<div className="titleright">
-						    	<h1>Royal Charter Bois</h1>
+						    	<h1>Royal Charter Time</h1>
 								Our mission in the Royal Charter was stated as: “promoting a wider knowledge of [the United Kingdom] 
 								and the English language abroad and developing closer cultural relations between [the UK] and other 
 								countries”.
@@ -102,18 +102,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 					{/* Page 5 */}
-				    <Parallax.Layer offset={3.1} speed={0.2} style={style1} >
-				    		<span><img src={uruguay} alt='#' height='125%' width='100%' /></span>
-				    </Parallax.Layer>
-				    <Parallax.Layer offset={3.2} speed={0.1} style={style2} >
-				    		<img src={classroom} alt='#' height='52.5%' width='29.5%' />
-				    </Parallax.Layer>
-				    <Parallax.Layer offset={3} speed={0.2} style={style3} onClick={() => this.refs.parallax.scrollTo(3)}>
-				    		<img src={teaching} alt='#' height='52.5%' width='35%' />
-				    </Parallax.Layer>
-				    <Parallax.Layer offset={3.1} speed={0.2} style={style2} ><p>Our work in</p></Parallax.Layer>
-				    <Parallax.Layer offset={3.2} speed={0.2} style={style2} ><p>Columbia has helped</p></Parallax.Layer>
-				    <Parallax.Layer offset={3.3} speed={0.2} style={style2} ><p>5000 children find food</p></Parallax.Layer>
+				    
 				    {/* Page 6 */}
 				    <Parallax.Layer offset={3} speed={1}>
 				        <span><img src={modern_bc} height='100%' width='100%' alt='#' /></span>
