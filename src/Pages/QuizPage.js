@@ -1,40 +1,9 @@
-import React, { Component } from 'react';
 import Parallax from 'react-springy-parallax';
-
-import classroom from '../Images/classroom.jpg';
-import history from '../Images/history-landing-page.jpg';
-import greatd from '../Images/thegreatd.jpg';
-import greatd2 from '../Images/greatd2.jpg';
-import liberation from '../Images/liberation.jpg';
-import logo from '../Images/bc-logo.png';
-import modern_bc from '../Images/modern_bc.jpg';
-import teaching from '../Images/teaching.jpg';
-import uruguay from '../Images/uruguay.png';
+import React, { Component } from 'react';
 
 export default class QuizPage extends Component {
 
 	render() {
-
-		const style1 = {
-            fontFamily: 'Menlo-Regular, Menlo, monospace',
-            fontSize: 14,
-            lineHeight: '5px',
-            color: 'white',
-            display: 'flex', alignItems: 'center', justifyContent: 'center'
-        }
-
-        const style2 = {
-            fontFamily: 'Georgia',
-            fontSize: 25,
-            lineHeight: '5px',
-            color: 'white',
-            display: 'flex', alignItems: 'left', justifyContent: 'left'
-        }
-
-        const style3 = {
-            color: 'white',
-            display: 'flex', alignItems: 'center', justifyContent: 'flex-end'
-        }
 
 		return (
 			<div>
@@ -149,7 +118,14 @@ export default class QuizPage extends Component {
 				    </Parallax.Layer>
 					{/* Page 9 */}
 				    <Parallax.Layer offset={5.5} speed={1}>
-				        <span><img src={modern_bc} height='100%' width='100%' alt='#' /></span>
+				        <a href='WelcomePage'>
+				        	<div className="slide" id='slide9'>
+						  		<div className="title">
+							    	<h1>Lets learn more</h1>
+									Click on the image to begin your journey into our vast organisation.
+						  		</div>
+							</div>
+						</a>
 				    </Parallax.Layer>
 				</Parallax>
 			</div>

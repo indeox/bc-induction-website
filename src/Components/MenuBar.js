@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 
 class MenuBar extends Component {
 
@@ -8,7 +8,7 @@ class MenuBar extends Component {
 			<div>
 				<ul>
 					<li><Link to='/'>BC Homepage</Link></li>
-					<li><Link to='QuizPage'>Quiz</Link></li>
+					<li><Link to='QuizPage'>Our History</Link></li>
 					<li><Link to='OurValues'>Our Values</Link></li>
 					<li><Link to='About'>About</Link></li>
 				</ul>
