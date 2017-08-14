@@ -1,0 +1,160 @@
+/*WILL CHANGE FONT LATER:*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+/*******************
+* for accordian tabs
+********************/
+.accordian {
+  width: 100%;
+  /*max-width: 1080px;*/
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.accordian .acc-list {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+#size-5 .acc-list .acc-list-item {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 20%;
+  box-shadow: 6px 0px 5px -5px black, -6px 0px 5px -5px black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 500ms ease;
+}
+
+#size-6 .acc-list .acc-list-item {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.667%; /*NOT YET TESTED*/
+  box-shadow: 6px 0px 5px -5px black, -6px 0px 5px -5px black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 500ms ease;
+}
+
+.accordian .acc-list .acc-list-item div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordian .acc-list .acc-list-item div a {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+
+.accordian .acc-list .acc-list-item div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.accordian .acc-list .acc-list-item div a h2 {
+  font-family: Montserrat, sans-serif;
+  text-overflow: clip;
+  font-size: 8em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 2px;
+  top: 70%;
+}
+
+.accordian .acc-list .acc-list-item div a p {
+  top: 70%; /*same as h2*/
+  font-size: 25px;
+  color: lightgray;
+  text-align: left;
+}
+/*************************
+* for accordian animations
+**************************/
+#size-5 .acc-list:hover .acc-list-item {
+  width: 10%;
+}
+
+#size-5 .acc-list:hover .acc-list-item:hover {
+  width: 60%;
+}
+
+#size-5 .acc-list:hover .acc-list-item:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#size-5 .acc-list:hover .acc-list-item:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+#size-6 .acc-list:hover .acc-list-item {
+  width: 8%;
+}
+
+#size-6 .acc-list:hover .acc-list-item:hover {
+  width: 60%;
+}
+
+#size-6 .acc-list:hover .acc-list-item:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#size-6 .acc-list:hover .acc-list-item:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+@media screen and (max-width: 600px) {
+  .accordian {
+    height: auto;
+  }
+
+  .accordian .acc-list .acc-list-item,
+  .accordian .acc-list .acc-list-item:hover,
+  .accordian .acc-list:hover .acc-list-item,
+  .accordian .acc-list:hover .acc-list-item:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+/******************
+* anything else...
+*******************/
