@@ -1,66 +1,67 @@
-import React, { Component } from 'react';
-import logo from '../Images/British-Council.jpg';
+import React, { Component } from "react";
+import ProgressBar from "../Components/ProgressBar.js";
+import Accordian from "../Components/Accordian.js";
+import logo from "../Images/British-Council.jpg";
 
 export default class OurValues extends Component {
-	render() {
-		return (
-			<div>
-				<div className="container">
-					<header className="jumbotron hero-spacer">
-				        <h2>Our Values</h2>
-				        <hr />
-		                <p>Learn more about working for a global leader in cultural relations</p>
-				    </header>
-			        <div className="row">
-			            <div className="col-lg-12">
-			                <h2 className="page-header">The Big Six</h2>
-			            </div>
-			            <div className="col-lg-4 col-sm-6 text-center">
-			                <img className="img-circle img-responsive img-center" src={logo} alt="#" />
-			                <h3>John Smith
-			                    <small>Job Title</small>
-			                </h3>
-			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-			            </div>
-			            <div className="col-lg-4 col-sm-6 text-center">
-			                <img className="img-circle img-responsive img-center" src={logo} alt="#" />
-			                <h3>John Smith
-			                    <small>Job Title</small>
-			                </h3>
-			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-			            </div>
-			            <div className="col-lg-4 col-sm-6 text-center">
-			                <img className="img-circle img-responsive img-center" src={logo} alt="#" />
-			                <h3>John Smith
-			                    <small>Job Title</small>
-			                </h3>
-			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-			            </div>
-			            <div className="col-lg-4 col-sm-6 text-center">
-			                <img className="img-circle img-responsive img-center" src={logo} alt="#" />
-			                <h3>John Smith
-			                    <small>Job Title</small>
-			                </h3>
-			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-			            </div>
-			            <div className="col-lg-4 col-sm-6 text-center">
-			                <img className="img-circle img-responsive img-center" src={logo} alt="#" />
-			                <h3>John Smith
-			                    <small>Job Title</small>
-			                </h3>
-			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-			            </div>
-			            <div className="col-lg-4 col-sm-6 text-center">
-			                <img className="img-circle img-responsive img-center" src={logo} alt="#" />
-			                <h3>John Smith
-			                    <small>Job Title</small>
-			                </h3>
-			                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-			            </div>
-			        </div>
-			    <br />
-			    </div>
-			</div>
-		);
-	}
+  constructor(props) {
+    super();
+    this.state = {
+      currentIndex: 0
+    }; //end of state definition
+    this.handleClick = this.handleClick.bind(this);
+  } //end of constructor
+
+  handleClick(id) {
+    //can take out this log after testing
+    console.log("Argument of handleClick function: " + id);
+    switch (id) {
+      case "continue":
+        this.setState(prevState => {
+          return { currentIndex: prevState.currentIndex + 1 };
+        });
+        break;
+
+      default:
+        break;
+    }
+  }
+  render() {
+    return (
+      <div>
+        <ProgressBar
+          continueLink={"/SBUs"}
+          stepLabels={[
+            "History Shite",
+            "Value Shite",
+            "SBU Shite",
+            "Need-to-Know Shite"
+          ]}
+          currentIndex={this.state.currentIndex}
+          handleClick={this.handleClick()}
+        />
+        <Accordian
+		//these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together
+          tabLabels={["val1", "val2", "val3", "val4", "val5"]}
+          tabDescriptions={[
+            "descrip1",
+            "descrip2",
+            "descrip3",
+            "descrip4",
+            "descrip5"
+          ]}
+          tabBackgrounds={[
+            "url(http://lorempixel.com/600/600/nature/1)",
+            "url(http://lorempixel.com/600/600/nature/2)",
+            "url(http://lorempixel.com/600/600/nature/3)",
+            "url(http://lorempixel.com/600/600/nature/4)",
+            "url(http://lorempixel.com/600/600/nature/5)"
+          ]}
+		  tabHeight={"1000px"}
+          currentIndex={this.state.currentIndex}
+          handleClick={this.handleClick()}
+        />
+      </div>
+    );
+  }
 }
