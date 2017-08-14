@@ -9,8 +9,6 @@ const Accordian = ({
   tabDescriptions,
   tabBackgrounds,
   tabHeight,
-  currentIndex,
-  handleClick,
   className = ""
 }) => {
   return (

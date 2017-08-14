@@ -8,7 +8,6 @@ const ProgressBar = ({
   continueLink,
   stepLabels, //list of strings
   currentIndex,
-  handleClick,
   className = ""
 }) => {
   return (
@@ -20,9 +19,6 @@ const ProgressBar = ({
             className="cont_button"
             href={continueLink}
             title="Continue"
-            onClick={() => {
-              handleClick("continue");
-            }}
           >
             Continue
           </a>
@@ -48,7 +44,7 @@ function generateProgressBar(stepLabels, currentIndex) {
   var bar = labelListForMapping.map((item, index) => {
     return (
       <div
-        className={currentIndex === index ? "active" : "status"}
+        className={currentIndex >= index ? "active" : "status"}
         style={{ width: 100 / stepLabels.length + "%" }}
       >
         {stepLabels[index]}

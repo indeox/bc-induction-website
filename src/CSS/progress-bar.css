@@ -131,26 +131,26 @@
   position: relative;
   display: table-cell;
   padding: 14px 0;
-  color: #27ae60;
+  color: rgba(28, 190, 131, 1);
   text-align: center;
   font-size: 1.125em;
   line-height: 1.250em;
 }
 .nav-progress > div.complete {
-  background-color: #2ecc71;
+  background-color: rgba(28, 190, 131, 1);
   color: #fff;
 }
-.nav-progress > div.complete .arrow {
+/*.nav-progress > div.complete .arrow {
   border: 3px solid #27ae60 !important;
   background: #2ecc71 !important;
-}
+}*/
 .nav-progress > div.active {
-  background-color: #2ecc71;
+  background-color: rgba(28, 190, 131, 1);
   color: #fff;
 }
 .nav-progress > div.active .arrow {
-  border: none !important;
-  background: #2ecc71 !important;
+  border: 3px solid #fff !important;
+  background: rgba(28, 190, 131, 1) !important;
 }
 
 .arrow-wrapper {
