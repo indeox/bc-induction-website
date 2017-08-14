@@ -1,11 +1,8 @@
-import Parallax from 'react-springy-parallax';
 import React, { Component } from "react";
 
 import Accordian from "../Components/Accordian.js";
 import Footer from '../Components/Footer';
 import ProgressBar from "../Components/ProgressBar.js";
-
-import logo from "../Images/British-Council.jpg";
 
 export default class OurValues extends Component {
   render() {
@@ -45,3 +42,4 @@ export default class OurValues extends Component {
       </div>
     );
   }
+}
