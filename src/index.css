@@ -131,5 +131,25 @@ img {
 }
 
 #slide4 {
-  background-image: url("Images/liberation.jpg");
+  background-image: url("Images/uruguay.png");
+}
+
+#slide5 {
+  background-image: url("Images/classroom.jpg");
+}
+
+#slide6 {
+  background-image: url("Images/teaching.jpg");
+}
+
+#slide7 {
+  background-image: url("Images/teaching.jpg");
+}
+
+#slide8 {
+  background-image: url("Images/teaching.jpg");
+}
+
+#slide9 {
+  background-image: url("Images/modern_bc.jpg");
 }
