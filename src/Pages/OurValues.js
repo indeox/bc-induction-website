@@ -5,10 +5,21 @@ import Footer from '../Components/Footer';
 import ProgressBar from "../Components/ProgressBar.js";
 
 export default class OurValues extends Component {
+
     render() {
         return (
             <div>
-
+            <ProgressBar
+              continueLink={"#/OurBehaviours"}
+              stepLabels={[
+                "History Shite",
+                "Value Shite",
+                "Behaviour Shite",
+                "SBU Shite",
+                "Need-to-Know Shite"
+              ]}
+              currentIndex={1}
+            />
             <Accordian
     		    //these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together
                 tabLabels={["val1", "val2", "val3", "val4", "val5"]}

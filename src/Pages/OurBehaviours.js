@@ -8,7 +8,7 @@ export default class OurBehaviours extends Component {
     return (
       <div>
         <ProgressBar
-          continueLink={"/SBUs"}
+          continueLink={"#/SBUs"}
           stepLabels={[
             "History Shite",
             "Value Shite",
