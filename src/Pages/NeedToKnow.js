@@ -17,14 +17,16 @@ export default class About extends Component {
 				<Parallax ref='parallax' pages={1}>
 					<div className="container">
 						<ProgressBar 
-						continueLink={"#/SBUs"}
-	          			stepLabels={[
-				            "History Shite",
-				            "Value Shite",
-				            "Behaviour Shite",
-				            "SBU Shite",
-				            "Need-to-Know Shite"
-	          			]}/>
+							continueLink={"#/SBUs"}
+							currentIndex={4}
+		          			stepLabels={[
+					            "History Shite",
+					            "Value Shite",
+					            "Behaviour Shite",
+					            "SBU Shite",
+					            "Need-to-Know Shite"
+		          			]}
+	          			/>
 	          			<br /><br /><br /><br /><br /><br />
 				        <header className="jumbotron hero-spacer">
 				            <h2>Some need to know information</h2>
