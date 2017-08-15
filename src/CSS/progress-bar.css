@@ -44,7 +44,7 @@
   position: absolute;
   height: 45px;
   width: 100%;
-  top: 145px; /* should be the negative of height !!!!*/
+  top: -45px; /* should be the negative of height !!!!*/
   right: 0px;
   background-color: #ffffff;
   transition: top .2s;
