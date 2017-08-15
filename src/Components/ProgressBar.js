@@ -45,7 +45,7 @@ function generateProgressBar(stepLabels, currentIndex) {
     return (
       <div
         className={currentIndex >= index ? "active" : "status"}
-        style={{ width: 100 / stepLabels.length + "%" }}
+        style={{ width: 100 / stepLabels.length + "%"}}
       >
         {stepLabels[index]}
         <div className="arrow-wrapper">
