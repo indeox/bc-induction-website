@@ -2,7 +2,7 @@ import Parallax from 'react-springy-parallax';
 import React, { Component } from 'react';
 
 import Footer from '../Components/Footer';
-import MenuBar from '../Components/MenuBar';
+import ProgressBar from '../Components/ProgressBar';
 
 import livlib from '../Images/liv-lib.jpg';
 import logo from '../Images/British-Council.jpg';
@@ -12,8 +12,18 @@ export default class WelcomePage extends Component {
 	render() {
 		return (
 			<div>
-				<Parallax ref='parallax' pages={1.1}>
-					<MenuBar />
+				<Parallax ref='parallax' pages={1.2}>
+					<ProgressBar 
+						continueLink={"#/SBUs"}
+	          			stepLabels={[
+				            "History Shite",
+				            "Value Shite",
+				            "Behaviour Shite",
+				            "SBU Shite",
+				            "Need-to-Know Shite"
+	          			]}
+	          		/>
+	          		<br /><br /><br /><br /><br /><br />
 				    <div className="container">
 				        <header className="jumbotron hero-spacer">
 				            <h2>Welcome to the British Council Induction!</h2>
