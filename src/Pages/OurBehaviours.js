@@ -19,7 +19,7 @@ export default class OurBehaviours extends Component {
           currentIndex={2}
         />
         <Accordian
-		//these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together
+		    //these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together
           tabLabels={["beh1", "beh2", "beh3", "beh4", "beh5", "beh6"]}
           tabDescriptions={[
             "descrip1",
