@@ -10,7 +10,7 @@ export default class OurValues extends Component {
     render() {
         return (
             <div>
-                <Parallax ref='parallax' pages={1.95}>
+                <Parallax pages={1.95}>
                     <ProgressBar
                       continueLink={"#/OurBehaviours"}
                       stepLabels={[

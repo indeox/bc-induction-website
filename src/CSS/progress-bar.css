@@ -11,9 +11,9 @@
 }
 
 .nav-bar {
-  height: 100px;
+  height: 70px;
   width: 100%;
-  font-size: 16pt;
+  font-size: 14pt;
   color: #e8e8ff;
   background-color: #202020;
 }
@@ -30,8 +30,9 @@
     float: left;
     height: 100%;
     text-align: center;
-    margin: 20px;
-    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18pt;
 }
 
 .nav-item:hover {
@@ -39,10 +40,11 @@
 }
 
 .nav-dropdown {
+  font-size: 13pt; /*IF NEED TO CHANGE THE FONT SIZE OF PROG LABELS*/
   position: absolute;
-  height: 75px;
+  height: 45px;
   width: 100%;
-  top: -75px; /* should be the negative of height */
+  top: -45px; /* should be the negative of height !!!!*/
   right: 0px;
   background-color: #ffffff;
   transition: top .2s;
@@ -52,22 +54,15 @@
 
 .nav-item:hover > .nav-dropdown {
   /* child selector */
-  top: 100px; /* should be the same as the height of nav-bar */
+  top: 70px; /* should be the same as the height of nav-bar */
 }
 
 .dropdown-item {
   float: right;
-  height: 75px;
+  height: 45px;
   width: 100%;
   background-color: #70a0b0;
 }
-
-/* *, *:after, *:before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans";
-}*/
 
 /****************
 * Continue Button
@@ -75,7 +70,7 @@
 .cont_button {
   display: inline-block;
 
-  font: normal normal 300 1.3em 'Open Sans';
+  font: normal normal 300 1.2em 'Open Sans';
   text-decoration: none;
 
   color: rgba(28, 190, 131, 1);
@@ -83,8 +78,8 @@
   border: 1px solid rgba(28, 190, 131, 1);
   border-radius: 100px;
 
-  padding: .3em 1.2em;
-  margin: 20px;
+  padding: .15em 1.2em;
+  margin: 16px;
 
   background-size: 200% 100%;
   background-image: linear-gradient(
@@ -112,7 +107,7 @@
   overflow: hidden;
   margin: 0;
   width: 100%;
-  height: 75px;
+  height: 45px;
   border: 3px solid #27ae60;
   background-color: #f7f7f7;
   -webkit-border-radius: 6px;
@@ -126,10 +121,10 @@
 .nav-progress > div {
   position: relative;
   display: table-cell;
-  padding: 14px 0;
+  padding: 8px 0;
   color: rgba(28, 190, 131, 1);
   text-align: center;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.250em;
 }
 .nav-progress > div.complete {
@@ -157,15 +152,15 @@
 .arrow-wrapper .arrow-cover {
   position: absolute;
   overflow: hidden;
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
 }
 .arrow-wrapper .arrow-cover .arrow {
   position: absolute;
-  left: -34px;
+  left: -24px;
   z-index: 2;
-  width: 75px;
-  height: 75px;
+  width: 40px;
+  height: 40px;
   border: 3px solid #27ae60;
   background: transparent;
   -webkit-border-radius: 6px;
