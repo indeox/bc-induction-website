@@ -15,11 +15,7 @@ const ProgressBar = ({
       <div className="nav-bar">
         <div className="nav-item">
           <h1>Your British Council Induction Journey</h1>
-          <a
-            className="cont_button"
-            href={continueLink}
-            title="Continue"
-          >
+          <a className="cont_button" href={continueLink} title="Continue">
             Continue
           </a>
           <div className="nav-dropdown">
