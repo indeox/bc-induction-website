@@ -37,7 +37,7 @@ export default class OurBehaviours extends Component {
                         "url(http://lorempixel.com/600/600/nature/5)",
                         "url(http://lorempixel.com/600/600/nature/6)"
                     ]}
-        		      tabHeight={"1000px"}
+        		      tabHeight={"800px"}
                 />
             </div>
         );

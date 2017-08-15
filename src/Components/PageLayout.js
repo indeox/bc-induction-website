@@ -5,6 +5,7 @@ import WelcomePage from '../Pages/WelcomePage.js';
 import QuizPage from '../Pages/QuizPage.js';
 import OurValues from '../Pages/OurValues.js';
 import OurBehaviours from '../Pages/OurBehaviours.js';
+import SBUs from '../Pages/SBUs.js';
 import About from '../Pages/About.js';
 
 export default class PageLayout extends Component {
@@ -16,6 +17,7 @@ export default class PageLayout extends Component {
 					<Route path='/QuizPage' component={QuizPage} />
 					<Route path='/OurValues' component={OurValues} />
 					<Route path='/OurBehaviours' component={OurBehaviours} />
+					<Route path='/SBUs' component={SBUs} />
 					<Route path='/About' component={About} />
 				</Switch>
 			</main>
