@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import NeedToKnow from '../Pages/NeedToKnow.js';
 import SBUs from '../Pages/SBUs.js';
-import QuizPage from '../Pages/QuizPage.js';
+import History from '../Pages/History.js';
 import OurValues from '../Pages/OurValues.js';
 import OurBehaviours from '../Pages/OurBehaviours.js';
 import WelcomePage from '../Pages/WelcomePage.js';
@@ -18,7 +18,7 @@ export default class PageLayout extends Component {
 					<Route path='/OurValues' component={OurValues} />
 					<Route path='/OurBehaviours' component={OurBehaviours} />
 					<Route path='/SBUs' component={SBUs} />
-					<Route path='/QuizPage' component={QuizPage} />
+					<Route path='/History' component={History} />
 				</Switch>
 			</main>
 		);

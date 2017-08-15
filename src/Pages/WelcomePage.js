@@ -16,11 +16,11 @@ export default class WelcomePage extends Component {
 					<ProgressBar 
 						continueLink={"#/SBUs"}
 	          			stepLabels={[
-				            "History Shite",
-				            "Value Shite",
-				            "Behaviour Shite",
-				            "SBU Shite",
-				            "Need-to-Know Shite"
+							"Our History",
+				            "Our Values",
+				            "Our Behaviours",
+				            "Our SBU's",
+				            "Key Information"
 	          			]}
 	          		/>
 	          		<br /><br /><br /><br /><br /><br />

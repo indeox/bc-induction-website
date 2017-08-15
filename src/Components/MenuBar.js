@@ -8,7 +8,7 @@ class MenuBar extends Component {
 			<div>
 				<ul>
 					<li><Link to='/'>BC Homepage</Link></li>
-					<li><Link to='QuizPage'>Our History</Link></li>
+					<li><Link to='History'>History</Link></li>
 					<li><Link to='OurValues'>Our Values</Link></li>
 					<li><Link to='About'>About</Link></li>
 				</ul>

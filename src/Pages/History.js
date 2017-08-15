@@ -1,6 +1,8 @@
 import Parallax from 'react-springy-parallax';
 import React, { Component } from 'react';
 
+import ProgressBar from '../Components/ProgressBar';
+
 export default class QuizPage extends Component {
 
 	render() {
@@ -8,6 +10,19 @@ export default class QuizPage extends Component {
 		return (
 			<div>
 				<Parallax ref='parallax' pages={6.25}>
+
+					<ProgressBar 
+						continueLink={"#/SBUs"}
+						currentIndex={0}
+	          			stepLabels={[
+				            "Our History",
+				            "Our Values",
+				            "Our Behaviours",
+				            "Our SBU's",
+				            "Key Information"
+	          			]}
+
+	          		/><br /><br />
 
 					<Parallax.Layer offset={0} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={0.5} speed={1} style={{ backgroundColor: 'black' }} />

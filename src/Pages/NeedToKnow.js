@@ -20,11 +20,11 @@ export default class About extends Component {
 							continueLink={"#/SBUs"}
 							currentIndex={4}
 		          			stepLabels={[
-					            "History Shite",
-					            "Value Shite",
-					            "Behaviour Shite",
-					            "SBU Shite",
-					            "Need-to-Know Shite"
+					            "Our History",
+					            "Our Values",
+					            "Our Behaviours",
+					            "Our SBU's",
+					            "Key Information"
 		          			]}
 	          			/>
 	          			<br /><br /><br /><br /><br /><br />
@@ -42,7 +42,7 @@ export default class About extends Component {
 				      			<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='/'>
+				        					<a href='../Images/Passport.pdf'>
 				        						<img src={passport} alt='#' width='100%' />
 				        						<div id='container'>Check your E-Passport</div>
 				        					</a>
@@ -66,7 +66,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='/'>
+				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion'>
 					        					<img src={edi} alt='#' width='100%' />
 					        					<div id='container'>EDI Information</div>
 					        				</a>
@@ -78,7 +78,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='/'>
+				        					<a href='https://www.britishcouncil.org/sites/default/files/code_of_conduct_may_2016.pdf'>
 					        					<img src={logo} alt='#' width='100%' />
 					        					<div id='container'>Code of Conduct</div>
 					        				</a>

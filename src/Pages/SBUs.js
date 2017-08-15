@@ -11,14 +11,14 @@ export default class OurBehaviours extends Component {
         <Parallax ref='parallax' pages={14}>
         <ProgressBar
           continueLink={"#/SBUs"}
-          stepLabels={[
-            "History Shite",
-            "Value Shite",
-            "Behaviour Shite",
-            "SBU Shite",
-            "Need-to-Know Shite"
-          ]}
           currentIndex={2}
+          stepLabels={[
+            "Our History",
+            "Our Values",
+            "Our Behaviours",
+            "Our SBU's",
+            "Key Information"
+          ]}
         />
         <HalfScroll
           //these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together

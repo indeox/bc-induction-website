@@ -13,14 +13,14 @@ export default class OurValues extends Component {
                 <Parallax pages={1.95}>
                     <ProgressBar
                       continueLink={"#/OurBehaviours"}
-                      stepLabels={[
-                        "History Shite",
-                        "Value Shite",
-                        "Behaviour Shite",
-                        "SBU Shite",
-                        "Need-to-Know Shite"
-                      ]}
                       currentIndex={1}
+                      stepLabels={[
+                        "Our History",
+                        "Our Values",
+                        "Our Behaviours",
+                        "Our SBU's",
+                        "Key Information"
+                      ]}
                     />
                     <Accordian
             		    //these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together
