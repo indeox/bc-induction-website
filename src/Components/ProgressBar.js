@@ -1,8 +1,8 @@
 /*
 * Progress Bar component
 */
-import React from "react";
 import "../CSS/progress-bar.css";
+import React, { Component } from 'react';
 
 const ProgressBar = ({
   continueLink,
@@ -56,7 +56,7 @@ function generateProgressBar(stepLabels, currentIndex) {
       </div>
     );
   });
-  //className={currentIndex === index ? "slick-active" : ""}
+  // className={currentIndex === index ? "slick-active" : ""}
   return (
     <div className="nav-progress">
       {bar}
