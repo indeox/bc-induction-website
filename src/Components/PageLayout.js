@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import WelcomePage from '../Pages/WelcomePage.js';
+import NeedToKnow from '../Pages/NeedToKnow.js';
+import SBUs from '../Pages/SBUs.js';
 import QuizPage from '../Pages/QuizPage.js';
 import OurValues from '../Pages/OurValues.js';
 import OurBehaviours from '../Pages/OurBehaviours.js';
-import SBUs from '../Pages/SBUs.js';
-import About from '../Pages/About.js';
+import WelcomePage from '../Pages/WelcomePage.js';
 
 export default class PageLayout extends Component {
 	render() {
@@ -14,11 +14,11 @@ export default class PageLayout extends Component {
 			<main>
 				<Switch>
 					<Route exact path='/' component={WelcomePage} />
-					<Route path='/QuizPage' component={QuizPage} />
+					<Route path='/NeedToKnow' component={NeedToKnow} />
 					<Route path='/OurValues' component={OurValues} />
 					<Route path='/OurBehaviours' component={OurBehaviours} />
 					<Route path='/SBUs' component={SBUs} />
-					<Route path='/About' component={About} />
+					<Route path='/QuizPage' component={QuizPage} />
 				</Switch>
 			</main>
 		);
