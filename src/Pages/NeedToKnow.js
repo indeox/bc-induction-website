@@ -42,7 +42,7 @@ export default class About extends Component {
 				      			<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='../Images/Passport.pdf'>
+				        					<a href='https://github.com/chrismphilp/bc-induction-website/raw/master/src/Images/Passport.pdf'>
 				        						<img src={passport} alt='#' width='100%' />
 				        						<div id='container'>Check your E-Passport</div>
 				        					</a>
@@ -54,7 +54,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='/'>
+				        					<a href='http://roam2.britishcouncil.org' target="_blank">
 				        						<img src={intranet} alt='#' width='100%' />
 				        						<div id='container'>Search the Intranet</div>
 				        					</a>
@@ -66,7 +66,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion'>
+				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion' target="_blank">
 					        					<img src={edi} alt='#' width='100%' />
 					        					<div id='container'>EDI Information</div>
 					        				</a>
@@ -78,7 +78,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='https://www.britishcouncil.org/sites/default/files/code_of_conduct_may_2016.pdf'>
+				        					<a href='https://www.britishcouncil.org/sites/default/files/code_of_conduct_may_2016.pdf' target="_blank">
 					        					<img src={logo} alt='#' width='100%' />
 					        					<div id='container'>Code of Conduct</div>
 					        				</a>
