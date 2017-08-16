@@ -17,14 +17,15 @@ export default class About extends Component {
 				<Parallax ref='parallax' pages={1}>
 					<div className="container">
 						<ProgressBar 
-							continueLink={"#/SBUs"}
+							continueLink={"#/Completion"}
 							currentIndex={4}
 		          			stepLabels={[
 					            "Our History",
 					            "Our Values",
 					            "Our Behaviours",
 					            "Our SBU's",
-					            "Key Information"
+					            "Key Information",
+					            "Finish Up"
 		          			]}
 	          			/>
 	          			<br /><br /><br /><br /><br /><br />

@@ -10,8 +10,8 @@ export default class OurBehaviours extends Component {
       <div>
         <Parallax ref='parallax' pages={14}>
         <ProgressBar
-          continueLink={"#/SBUs"}
-          currentIndex={2}
+          continueLink={"#/NeedToKnow"}
+          currentIndex={3}
           stepLabels={[
             "Our History",
             "Our Values",
