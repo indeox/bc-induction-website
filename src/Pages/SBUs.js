@@ -12,17 +12,6 @@ export default class OurBehaviours extends Component {
     return (
       <div>
         <Parallax ref="parallax" pages={1.2}>
-          <ProgressBar
-            continueLink={"#/SBUs"}
-            currentIndex={3}
-            stepLabels={[
-              "Our History",
-              "Our Values",
-              "Our Behaviours",
-              "Our SBU's",
-              "Key Information"
-            ]}
-          />
           <SwipeWrapper />
         </Parallax>
       </div>

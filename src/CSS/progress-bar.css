@@ -26,6 +26,12 @@
   background-color: #202020;
 }
 
+.nav-item img{
+  float: left;
+  width: 13%;
+  margin: 9px;
+}
+
 .nav-item h1{
     float: left;
     height: 100%;

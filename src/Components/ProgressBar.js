@@ -18,7 +18,7 @@ const ProgressBar = ({
       <div className="nav-container">
         <div className="nav-bar">
           <div className="nav-item">
-            <img src={logo} width='15%' length='10%' alt='.' />
+            <img src={logo} alt='.' />
             <h1>Your British Council Induction Journey</h1>
             <a className="cont_button" href={continueLink} title="Continue">Continue</a>
             <div className="nav-dropdown">
