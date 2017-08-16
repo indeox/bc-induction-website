@@ -19,9 +19,7 @@ const ProgressBar = ({
         <div className="nav-item">
           <img src={logo} width='15%' length='10%' />
           <h1>Your British Council Induction Journey</h1>
-          <a className="cont_button" href={continueLink} title="Continue">
-            Continue
-          </a>
+          <a className="cont_button" href={continueLink} title="Continue">Continue</a>
           <div className="nav-dropdown">
             <div className="dropdown-item">
               {generateProgressBar(stepLabels, currentIndex)}
@@ -43,10 +41,7 @@ function generateProgressBar(stepLabels, currentIndex) {
   //Maps the returned label element below to each slot in labelList array
   var bar = labelListForMapping.map((item, index) => {
     return (
-      <div
-        className={currentIndex >= index ? "active" : "status"}
-        style={{ width: 100 / stepLabels.length + "%"}}
-      >
+      <div className={currentIndex >= index ? "active" : "status"} style={{ width: 100 / stepLabels.length + "%"}} >
         {stepLabels[index]}
         <div className="arrow-wrapper">
           <div className="arrow-cover">
@@ -56,7 +51,6 @@ function generateProgressBar(stepLabels, currentIndex) {
       </div>
     );
   });
-  // className={currentIndex === index ? "slick-active" : ""}
   return (
     <div className="nav-progress">
       {bar}
