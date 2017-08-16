@@ -7,6 +7,7 @@ import History from '../Pages/History.js';
 import OurValues from '../Pages/OurValues.js';
 import OurBehaviours from '../Pages/OurBehaviours.js';
 import WelcomePage from '../Pages/WelcomePage.js';
+import Completion from '../Pages/Completion.js';
 
 export default class PageLayout extends Component {
 	render() {
@@ -19,6 +20,7 @@ export default class PageLayout extends Component {
 					<Route path='/OurBehaviours' component={OurBehaviours} />
 					<Route path='/SBUs' component={SBUs} />
 					<Route path='/History' component={History} />
+					<Route path='/Completion' component={Completion} />
 				</Switch>
 			</main>
 		);

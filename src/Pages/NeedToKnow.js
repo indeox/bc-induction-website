@@ -1,7 +1,6 @@
 import Parallax from 'react-springy-parallax';
 import React, { Component } from 'react';
 
-import Footer from '../Components/Footer';
 import ProgressBar from '../Components/ProgressBar';
 
 import logo from '../Images/Portugal_00005.jpg';
@@ -17,14 +16,15 @@ export default class About extends Component {
 				<Parallax ref='parallax' pages={1}>
 					<div className="container">
 						<ProgressBar 
-							continueLink={"#/SBUs"}
+							continueLink={"#/Completion"}
 							currentIndex={4}
 		          			stepLabels={[
 					            "Our History",
 					            "Our Values",
 					            "Our Behaviours",
 					            "Our SBU's",
-					            "Key Information"
+					            "Key Information",
+					            "Finish Up"
 		          			]}
 	          			/>
 	          			<br /><br /><br /><br /><br /><br />
@@ -42,7 +42,7 @@ export default class About extends Component {
 				      			<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='../Images/Passport.pdf'>
+				        					<a href='https://github.com/chrismphilp/bc-induction-website/raw/master/src/Images/Passport.pdf' rel="noopener noreferrer">
 				        						<img src={passport} alt='#' width='100%' />
 				        						<div id='container'>Check your E-Passport</div>
 				        					</a>
@@ -54,7 +54,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='/'>
+				        					<a href='http://roam2.britishcouncil.org' target="_blank" rel="noopener noreferrer">
 				        						<img src={intranet} alt='#' width='100%' />
 				        						<div id='container'>Search the Intranet</div>
 				        					</a>
@@ -66,7 +66,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion'>
+				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion' target="_blank" rel="noopener noreferrer">
 					        					<img src={edi} alt='#' width='100%' />
 					        					<div id='container'>EDI Information</div>
 					        				</a>
@@ -78,7 +78,7 @@ export default class About extends Component {
 					      		<div className='row text-center'>
 				        			<div className="panel-body">
 				        				<div className="polaroid">
-				        					<a href='https://www.britishcouncil.org/sites/default/files/code_of_conduct_may_2016.pdf'>
+				        					<a href='https://www.britishcouncil.org/sites/default/files/code_of_conduct_may_2016.pdf' target="_blank" rel="noopener noreferrer">
 					        					<img src={logo} alt='#' width='100%' />
 					        					<div id='container'>Code of Conduct</div>
 					        				</a>

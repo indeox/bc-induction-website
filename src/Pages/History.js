@@ -12,7 +12,7 @@ export default class QuizPage extends Component {
 				<Parallax ref='parallax' pages={6.25}>
 
 					<ProgressBar 
-						continueLink={"#/SBUs"}
+						continueLink={"#/OurValues"}
 						currentIndex={0}
 	          			stepLabels={[
 				            "Our History",

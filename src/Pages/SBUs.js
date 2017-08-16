@@ -6,6 +6,7 @@ import SwipeWrapper from "../Components/SwipeWrapper.js";
 //import Info from "../Components/Info.js";
 import logo from "../Images/British-Council.jpg";
 
+
 export default class OurBehaviours extends Component {
   render() {
     return (
