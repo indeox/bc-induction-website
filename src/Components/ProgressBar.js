@@ -14,20 +14,22 @@ const ProgressBar = ({
   className = ""
 }) => {
   return (
-    <div className="nav-container">
-      <div className="nav-bar">
-        <div className="nav-item">
-          <img src={logo} width='15%' length='10%' alt='.' />
-          <h1>Your British Council Induction Journey</h1>
-          <a className="cont_button" href={continueLink} title="Continue">Continue</a>
-          <div className="nav-dropdown">
-            <div className="dropdown-item">
-              {generateProgressBar(stepLabels, currentIndex)}
+    <nav>
+      <div className="nav-container">
+        <div className="nav-bar">
+          <div className="nav-item">
+            <img src={logo} width='15%' length='10%' alt='.' />
+            <h1>Your British Council Induction Journey</h1>
+            <a className="cont_button" href={continueLink} title="Continue">Continue</a>
+            <div className="nav-dropdown">
+              <div className="dropdown-item">
+                {generateProgressBar(stepLabels, currentIndex)}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   ); //end of return
 }; //end of const ProgressBar
 
