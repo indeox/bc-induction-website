@@ -1,8 +1,8 @@
-import React, { Component } from "react";
 import Parallax from 'react-springy-parallax';
-import ProgressBar from "../Components/ProgressBar.js";
+import React, { Component } from "react";
+
 import HalfScroll from "../Components/HalfScroll.js";
-import logo from "../Images/British-Council.jpg";
+import ProgressBar from "../Components/ProgressBar.js";
 
 export default class OurBehaviours extends Component {
   render() {

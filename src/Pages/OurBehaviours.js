@@ -4,13 +4,11 @@ import React, { Component } from "react";
 import Accordian from "../Components/Accordian.js";
 import ProgressBar from "../Components/ProgressBar.js";
 
-import image from '../Images/greatd2.jpg';
-
 export default class OurBehaviours extends Component {
     render() {
         return (
             <div>
-                <Parallax pages={1.25}>
+                <Parallax pages={1.35}>
                     <ProgressBar
                         continueLink={"#/SBUs"}
                         currentIndex={2}

@@ -2,7 +2,7 @@
 * Progress Bar component
 */
 
-import React, { Component } from 'react';
+import React from 'react';
 
 import "../CSS/progress-bar.css";
 import logo from '../Images/logo-white.png';
@@ -17,7 +17,7 @@ const ProgressBar = ({
     <div className="nav-container">
       <div className="nav-bar">
         <div className="nav-item">
-          <img src={logo} width='15%' length='10%' />
+          <img src={logo} width='15%' length='10%' alt='.' />
           <h1>Your British Council Induction Journey</h1>
           <a className="cont_button" href={continueLink} title="Continue">Continue</a>
           <div className="nav-dropdown">

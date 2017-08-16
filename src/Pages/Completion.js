@@ -1,7 +1,6 @@
 import Parallax from 'react-springy-parallax';
 import React, { Component } from 'react';
 
-import Footer from '../Components/Footer';
 import ProgressBar from '../Components/ProgressBar';
 
 export default class About extends Component {

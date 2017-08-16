@@ -19,41 +19,41 @@ const HalfScroll = ({
 
 export default HalfScroll;
 
-//dynamically generates the articles
-function generateArticles1(
-  articleLabels,
-  articleDescriptions,
-  articleBackgrounds
-) {
-  //Creates an array equivalent to the number of labels
-  var articleListForMapping = new Array(articleLabels.length).fill(0);
+// //dynamically generates the articles
+// function generateArticles1(
+//   articleLabels,
+//   articleDescriptions,
+//   articleBackgrounds
+// ) {
+//   //Creates an array equivalent to the number of labels
+//   var articleListForMapping = new Array(articleLabels.length).fill(0);
 
-  //Maps the returned label element below to each slot in labelList array
-  var articles = articleListForMapping.map((item, index) => {
-    return (
-      <div className="article">
-        <figure className="article-figure">
-          <img className="article-img" src={articleBackgrounds[index]} alt />
-        </figure>
-        <section className="article-section">
-          <div className="section-div">
-            <h2 className="article-header">
-              {articleLabels[index]}
-            </h2>
-            <p className="article-description">
-              {articleDescriptions[index]}
-            </p>
-          </div>
-        </section>
-      </div>
-    );
-  });
-  return (
-    <article className="article-container">
-      {articles}
-    </article>
-  );
-}
+//   //Maps the returned label element below to each slot in labelList array
+//   var articles = articleListForMapping.map((item, index) => {
+//     return (
+//       <div className="article">
+//         <figure className="article-figure">
+//           <img className="article-img" src={articleBackgrounds[index]} alt />
+//         </figure>
+//         <section className="article-section">
+//           <div className="section-div">
+//             <h2 className="article-header">
+//               {articleLabels[index]}
+//             </h2>
+//             <p className="article-description">
+//               {articleDescriptions[index]}
+//             </p>
+//           </div>
+//         </section>
+//       </div>
+//     );
+//   });
+//   return (
+//     <article className="article-container">
+//       {articles}
+//     </article>
+//   );
+// }
 
 function generateArticles2(
   articleLabels,
@@ -68,7 +68,7 @@ function generateArticles2(
     return (
       <div className="article">
         <figure className="article-figure">
-          <img className="article-img" src={articleBackgrounds[index]} alt />
+          <img className="article-img" src={articleBackgrounds[index]} alt='.' />
         </figure>
         <section className="article-section">
           <div className="section-div">
