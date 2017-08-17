@@ -9,7 +9,7 @@ export default class QuizPage extends Component {
 
 		return (
 			<div>
-				<Parallax ref='parallax' pages={6.5}>
+				<Parallax ref='parallax' pages={6.9}>
 
 					<ProgressBar 
 						continueLink={"#/OurValues"}
@@ -135,7 +135,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 					{/* Page 9 */}
-				    <Parallax.Layer offset={5.9} speed={1}>
+				    <Parallax.Layer offset={5.9} speed={0.1}>
 				        <a href='/#/OurValues'>
 				        	<div className="slide" id='slide9'>
 						  		<div className="title">
