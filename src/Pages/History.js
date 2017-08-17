@@ -9,7 +9,7 @@ export default class QuizPage extends Component {
 
 		return (
 			<div>
-				<Parallax ref='parallax' pages={6.25}>
+				<Parallax ref='parallax' pages={6.5}>
 
 					<ProgressBar 
 						continueLink={"#/OurValues"}
@@ -30,7 +30,9 @@ export default class QuizPage extends Component {
                 	<Parallax.Layer offset={2} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={2.9} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={4} speed={0.5} style={{ backgroundColor: 'black' }} />
+                	<Parallax.Layer offset={4.5} speed={0.5} style={{ backgroundColor: 'black' }} />
                 	<Parallax.Layer offset={5} speed={0.5} style={{ backgroundColor: 'black' }} />
+                	<Parallax.Layer offset={5.5} speed={0.5} style={{ backgroundColor: 'black' }} />
 
 					{/* Page 1 */}
 				    <Parallax.Layer offset={0} speed={0.5} onClick={() => this.refs.parallax.scrollTo(0.6)} >
@@ -103,7 +105,7 @@ export default class QuizPage extends Component {
 				    <Parallax.Layer offset={3.95} speed={0.75} onClick={() => this.refs.parallax.scrollTo(5)} >
 				        <div className="slide" id='slide6'>
 						  	<div className="titleright">
-						    	<h1>Our work in classrooms</h1>
+						    	<h1>Work in classrooms</h1>
 								Our mission in the Royal Charter was stated as: "promoting a wider knowledge of [the United Kingdom] 
 								and the English language abroad and developing closer cultural relations between [the UK] and other 
 								countries".
@@ -122,7 +124,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 				    {/* Page 8 */}
-				    <Parallax.Layer offset={4.99} speed={0.3} onClick={() => this.refs.parallax.scrollTo(5)} >
+				    <Parallax.Layer offset={5} speed={0.3} onClick={() => this.refs.parallax.scrollTo(5)} >
 				        <div className="slide" id='slide8'>
 						  	<div className="titleright">
 						    	<h1>Our work in classrooms</h1>
@@ -133,7 +135,7 @@ export default class QuizPage extends Component {
 						</div>
 				    </Parallax.Layer>
 					{/* Page 9 */}
-				    <Parallax.Layer offset={5.5} speed={1}>
+				    <Parallax.Layer offset={5.9} speed={1}>
 				        <a href='/#/OurValues'>
 				        	<div className="slide" id='slide9'>
 						  		<div className="title">

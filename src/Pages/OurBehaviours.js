@@ -31,12 +31,12 @@ export default class OurBehaviours extends Component {
                             "Six"
                         ]}
                         tabDescriptions={[
-                            "Connecting with others",
-                            "Shaping the future",
-                            "Making it happen",
-                            "Being accountable",
-                            "Creating shared purpose",
-                            "Working together"
+                            "Connecting with others.",
+                            "Shaping the future.",
+                            "Making it happen.",
+                            "Being accountable.",
+                            "Creating shared purpose.",
+                            "Working together."
                         ]}
                         // Use this for image conversion http://jpillora.com/base64-encoder
                         tabBackgrounds={[
