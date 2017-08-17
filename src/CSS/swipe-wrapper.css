@@ -12,43 +12,44 @@
 }
 .button-row > div {
   position: relative;
-  width: 360px;
-  height: 600px;
-  margin: 0 15px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   perspective: 1000px;
-  border: blue 3px dashed;
 }
 .button-row > div > .sbu-content {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  z-index: 0;
   position: absolute;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform: translateZ(-25px);
+  /*-webkit-transform: translateZ(-25px);
   -moz-transform: translateZ(-25px);
   -ms-transform: translateZ(-25px);
-  -o-transform: translateZ(-25px);
-  transform: translateZ(-25px);
-  -webkit-transition: -webkit-transform 0.25s;
-  -moz-transition: -moz-transform 0.25s;
-  transition: transform 0.25s;
-
-   border: red 3px dashed;
+  -o-transform: translateZ(-25px);*/
+  transform: translateZ(0px);
+  /*-webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;*/
+  transition: transform 1s;
+  border: red 3px dashed;
 }
+
+/*********************
+* Content
+*********************/
 .button-row > div > .sbu-content::before,
 .button-row > div > .sbu-content::after {
   justify-content: center;
   align-items: center;
   margin: 0;
-  width: 360px;
-  height: 80px;
   position: absolute;
   border: 5px solid black;
   box-sizing: border-box;
@@ -63,30 +64,116 @@
 }
 .button-row > div > .sbu-content::before {
   background-color: #000;
+  border-color: peachpuff;
   color: #fff;
-  -webkit-transform: rotateY(0deg) translateZ(40px);
-  -moz-transform: rotateY(0deg) translateZ(40px);
-  -ms-transform: rotateY(0deg) translateZ(40px);
-  -o-transform: rotateY(0deg) translateZ(40px);
-  transform: rotateY(0deg) translateZ(40px);
+  /*-webkit-transform: rotateY(0deg) translateZ(25px);
+  -moz-transform: rotateY(0deg) translateZ(25px);
+  -ms-transform: rotateY(0deg) translateZ(25px);
+  -o-transform: rotateY(0deg) translateZ(25px);*/
+  transform: rotateY(0deg) translateZ(0px);
+  width: 100%;
+  height: 100%;
 }
-.button-row > div > .sbu-content::after {
-  background-color: #fff;
+
+/*.button-row > div > .sbu-content::after {
+  background-color: lightseagreen;
   border-color: #000;
   color: #000;
-  -webkit-transform: rotateX(90deg) translateZ(40px);
-  -moz-transform: rotateX(90deg) translateZ(40px);
-  -ms-transform: rotateX(90deg) translateZ(40px);
-  -o-transform: rotateX(90deg) translateZ(40px);
-  transform: rotateX(90deg) translateZ(40px);
-}
+  /*-webkit-transform: rotateX(90deg) translateZ(25px);
+  -moz-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(55deg) translateZ(-312px) translateY(-100%);
+  height: 100%;
+  width: 100%;
+}*/
+
 .button-row > div > .sbu-content:focus {
-  -webkit-transform: translateZ(-40px) rotateX(-90deg);
-  -moz-transform: translateZ(-40px) rotateX(-90deg);
-  -ms-transform: translateZ(-40px) rotateX(-90deg);
-  -o-transform: translateZ(-40px) rotateX(-90deg);
-  transform: translateZ(-40px) rotateX(-90deg);
+  /*-webkit-transform: translateZ(-25px) rotateX(-90deg);
+  -moz-transform: translateZ(-25px) rotateX(-90deg);
+  -ms-transform: translateZ(-25px) rotateX(-90deg);
+  -o-transform: translateZ(-25px) rotateX(-90deg);*/
+  transform: translateZ(0px) translateX(-50%) rotateY(55deg);
 }
+
+/*********************
+* Map
+*********************/
+.button-row > div > .sbu-map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /*-webkit-transform: translateZ(-25px);
+  -moz-transform: translateZ(-25px);
+  -ms-transform: translateZ(-25px);
+  -o-transform: translateZ(-25px);*/
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(55deg) translateZ(-312px) translateY(-100%);
+  /*-webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;*/
+  transition: transform 1s;
+  border: red 3px solid;
+}
+
+.button-row > div > .sbu-map::before,
+.button-row > div > .sbu-map::after {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  border: 5px solid black;
+  box-sizing: border-box;
+  content: attr(title);
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.button-row > div > .sbu-map::before {
+  background-color: #000;
+  border-color: peachpuff;
+  color: #fff;
+  /*-webkit-transform: rotateY(0deg) translateZ(25px);
+  -moz-transform: rotateY(0deg) translateZ(25px);
+  -ms-transform: rotateY(0deg) translateZ(25px);
+  -o-transform: rotateY(0deg) translateZ(25px);*/
+  transform: rotateY(0deg) translateZ(0px);
+  width: 100%;
+  height: 100%;
+}
+
+/*.button-row > div > .sbu-map::after {
+  background-color: lightseagreen;
+  border-color: #000;
+  color: #000;
+  /*-webkit-transform: rotateX(90deg) translateZ(25px);
+  -moz-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(55deg) translateZ(-312px) translateY(-100%);
+  height: 100%;
+  width: 100%;
+}*/
+
+.button-row > div > .sbu-map:focus {
+  /*-webkit-transform: translateZ(-25px) rotateX(-90deg);
+  -moz-transform: translateZ(-25px) rotateX(-90deg);
+  -ms-transform: translateZ(-25px) rotateX(-90deg);
+  -o-transform: translateZ(-25px) rotateX(-90deg);*/
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-55deg) translateZ(312px) translateY(100%);
+}
+
+
 
 /* this is just icing */
 .swipe-wrapper {

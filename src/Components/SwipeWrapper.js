@@ -5,19 +5,18 @@ import "../CSS/swipe-wrapper.css";
 import React, { Component } from "react";
 
 const SwipeWrapper = ({ className = "" }) => {
-var isClicked = false;
+  var isClicked = false;
   return (
     <div className="swipe-wrapper">
       <div className="main">
         <div className="button-row">
           <div>
-            <div className="sbu-content" tabIndex="1">sbu1</div>
-          </div>
-          <div>
-            <div className="sbu-content" tabIndex="1">sbu2</div>
-          </div>
-          <div>
-            <div className="sbu-content" tabIndex="1">sbu3</div>
+            <div className="sbu-content" tabIndex="1">
+              <h1>sbu1</h1>
+            </div>
+            <div className="sbu-map" tabIndex="1">
+              <h1>map1 here</h1>
+            </div>
           </div>
         </div>
       </div>
