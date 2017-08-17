@@ -22,6 +22,7 @@ export default class About extends Component {
 					            "Key Information",
 					            "Finish Up"
 		          			]}
+		          			test={false}
 		          		/>
 		          		<br/><br/><br/><br/><br/><br/>
 		          		<header className="jumbotron hero-spacer">
