@@ -38,7 +38,7 @@ export default class BCDigital extends Component {
 	      		<div className="container text-center">
 	      			<div className="well well-lg">    
 					  	<div className="row">
-					  		<h3>Your new team</h3>
+					  		<h3>Welcome to BC Digital - Your New Team</h3>
 					    	<div className="col-sm-3">
 				      			<div className='row text-center'>
 				        			<div className="panel-body">
@@ -103,7 +103,7 @@ export default class BCDigital extends Component {
 					</div>
 			    <div className="container text-center">
 			    <div className="well well-lg">    
-				  	<h3>Learn about where you'll be working</h3>
+				  	<h3>Learn more about where you'll be working</h3>
 				  	<br></br>
 				  	<div className="row">
 				    	<div className="col-sm-3">
