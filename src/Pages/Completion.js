@@ -23,7 +23,7 @@ export default class About extends Component {
 					            "Finish Up"
 		          			]}
 		          		/>
-		          		<br/><br/><br/><br/><br/>
+		          		<br/><br/><br/><br/><br/><br/>
 		          		<header className="jumbotron hero-spacer">
 				            <h2>Time to continue your personal British Council journey</h2>
 				            <hr/>
