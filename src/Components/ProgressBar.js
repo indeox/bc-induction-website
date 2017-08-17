@@ -11,8 +11,10 @@ const ProgressBar = ({
   continueLink,
   stepLabels, //list of strings
   currentIndex,
-  className = ""
+  className = "",
+  test = true
 }) => {
+
   return (
     <nav>
       <div className="nav-container">
@@ -20,7 +22,9 @@ const ProgressBar = ({
           <div className="nav-item">
             <img src={logo} alt='.' />
             <h1>Your British Council Induction Journey</h1>
-            <a className="cont_button" href={continueLink} title="Continue">Continue</a>
+            {test &&   
+              <a className="cont_button" href={continueLink} title="Continue">Continue</a>
+            }
             <div className="nav-dropdown">
               <div className="dropdown-item">
                 {generateProgressBar(stepLabels, currentIndex)}

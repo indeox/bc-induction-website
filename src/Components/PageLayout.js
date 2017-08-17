@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import NeedToKnow from '../Pages/NeedToKnow.js';
-import SBUs from '../Pages/SBUs.js';
-import History from '../Pages/History.js';
-import OurValues from '../Pages/OurValues.js';
-import OurBehaviours from '../Pages/OurBehaviours.js';
-import WelcomePage from '../Pages/WelcomePage.js';
-import Completion from '../Pages/Completion.js';
+import NeedToKnow from '../Pages/NeedToKnow';
+import SBUs from '../Pages/SBUs';
+import History from '../Pages/History';
+import OurValues from '../Pages/OurValues';
+import OurBehaviours from '../Pages/OurBehaviours';
+import WelcomePage from '../Pages/WelcomePage';
+import Completion from '../Pages/Completion';
+import BCDigital from '../Pages/BCDigital';
 
 export default class PageLayout extends Component {
 	render() {
@@ -21,6 +22,7 @@ export default class PageLayout extends Component {
 					<Route path='/SBUs' component={SBUs} />
 					<Route path='/History' component={History} />
 					<Route path='/Completion' component={Completion} />
+					<Route path='/BCDigital' component={BCDigital} />
 				</Switch>
 			</main>
 		);

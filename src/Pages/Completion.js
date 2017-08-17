@@ -25,11 +25,11 @@ export default class About extends Component {
 		          		/>
 		          		<br/><br/><br/><br/><br/>
 		          		<header className="jumbotron hero-spacer">
-				            <h2>Time to continue your British Council journey</h2>
+				            <h2>Time to continue your personal British Council journey</h2>
 				            <hr/>
 				            <p>
-					            Enter the code given by your line manager to learn more 
-					            about your individual department.
+					            Enter the code given by your line manager before you began your induction
+					            to learn more about your individual department.
 					        </p>
 				        </header>
 		          		<RegisterForm />

@@ -45,7 +45,7 @@ class Input extends Component {
   		if (this.state.value == 'BC_DIG_LOND' && 
   			this.state.submitted) {
        		return (
-        		<Redirect to="/History"/>
+        		<Redirect to="/BCDigital"/>
       		);
      	}
      	else if (this.state.value != 'BC_DIG_LOND' && 
@@ -64,8 +64,10 @@ class Input extends Component {
 		            	value={ this.state.value }
 		            	onChange={ this.handleChange }
 		            />
-		            <span className="help-block">Enter in your department code here.</span>
-		            <input type="submit" value="Submit" />
+		            <br/>
+		            <div className="text-center">	
+		            	<input type="submit" value="Submit" className="btn-lg btn-success" />
+		            </div>
 				</div>
 			</form>
         );
