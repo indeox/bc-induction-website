@@ -22,7 +22,7 @@ export default class QuizPage extends Component {
 				            "Key Information"
 	          			]}
 	          		/>
-	          		<br /><br />
+	          		<br/><br/><br/>
 
 					<Parallax.Layer offset={0} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={0.5} speed={1} style={{ backgroundColor: 'black' }} />
@@ -51,7 +51,9 @@ export default class QuizPage extends Component {
 						    	<h1>Growing tensions...</h1>
 						    	The balance of power was shifting and extreme ideologies were gaining ground. The October 
 						    	Revolution of 1917 had brought the Bolsheviks to power in Russia, while in 1922 Mussolini 
-						    	had taken charge of Italy. This was followed by the rise of Nazism in Germany, with Hitler 
+						    	had taken charge of Italy. 
+						    	<br/><br/>
+						    	This was followed by the rise of Nazism in Germany, with Hitler 
 						    	coming to power in Berlin in January 1933. In Spain, the civil war that would bring Franco’s 
 						    	Falangists to power was shortly to begin. Across Europe and the wider world, Britain’s influence 
 						    	in trade and diplomacy was under significant challenge.
@@ -62,11 +64,21 @@ export default class QuizPage extends Component {
 				    <Parallax.Layer offset={1.57} speed={0.5} onClick={() => this.refs.parallax.scrollTo(2.2)}>
 				        <div className="slide" id='slide3'>
 						  	<div className="title">
-						    	<h1>Growing tensions...</h1>
+						    	<h1>Our Introduction</h1>
 						    	One of the ways that the government reacted to the growing threat to British interests was the 
-						    	creation of the British Council. It began operations in 1934.  The organisation’s original aim 
-						    	is set out in this extract from our 1940-41 Annual Report:
-
+						    	creation of the British Council. 
+						    	<br/><br/>
+						    	It began operations in 1934.  
+						  	</div>
+						</div>
+				    </Parallax.Layer>
+				    {/* Page 4 */}
+				    <Parallax.Layer offset={2.2} speed={0.3} onClick={() => this.refs.parallax.scrollTo(2.5)} >
+				        <div className="slide" id='slide4'>
+						  	<div className="titleright">
+						    	<h1>Royal Charter</h1>
+								The organisation’s original aim is set out in this extract from our 1940-41 Annual Report:
+								<br/><br/>
 								“The Council’s aim is to create in a country overseas a basis of friendly knowledge and understanding 
 								of the people of this country, of their philosophy and way of life, which will lead to a sympathetic 
 								appreciation of British foreign policy, whatever for the moment that policy may be and from whatever 
@@ -76,22 +88,11 @@ export default class QuizPage extends Component {
 						  	</div>
 						</div>
 				    </Parallax.Layer>
-				    {/* Page 4 */}
-				    <Parallax.Layer offset={2.2} speed={0.3} onClick={() => this.refs.parallax.scrollTo(2.5)} >
-				        <div className="slide" id='slide4'>
-						  	<div className="titleright">
-						    	<h1>Royal Charter</h1>
-								Our mission in the Royal Charter was stated as: “promoting a wider knowledge of [the United Kingdom] 
-								and the English language abroad and developing closer cultural relations between [the UK] and other 
-								countries”.
-						  	</div>
-						</div>
-				    </Parallax.Layer>
 					{/* Page 5 */}
 				    <Parallax.Layer offset={3} speed={0.15} onClick={() => this.refs.parallax.scrollTo(4)} >
 				        <div className="slide" id='slide5'>
 						  	<div className="title">
-						    	<h1>Our work in classrooms</h1>
+						    	<h1>The Aim</h1>
 								Our mission in the Royal Charter was stated as: “promoting a wider knowledge of [the United Kingdom] 
 								and the English language abroad and developing closer cultural relations between [the UK] and other 
 								countries”.
@@ -133,7 +134,7 @@ export default class QuizPage extends Component {
 				    </Parallax.Layer>
 					{/* Page 9 */}
 				    <Parallax.Layer offset={5.5} speed={1}>
-				        <a href='WelcomePage'>
+				        <a href='/#/OurValues'>
 				        	<div className="slide" id='slide9'>
 						  		<div className="title">
 							    	<h1>Lets learn more</h1>

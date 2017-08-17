@@ -6,7 +6,6 @@ import SBUs from '../Pages/SBUs';
 import History from '../Pages/History';
 import OurValues from '../Pages/OurValues';
 import OurBehaviours from '../Pages/OurBehaviours';
-import WelcomePage from '../Pages/WelcomePage';
 import Completion from '../Pages/Completion';
 import BCDigital from '../Pages/BCDigital';
 
@@ -15,7 +14,6 @@ export default class PageLayout extends Component {
 		return (
 			<main>
 				<Switch>
-					<Route exact path='/' component={WelcomePage} />
 					<Route path='/NeedToKnow' component={NeedToKnow} />
 					<Route path='/OurValues' component={OurValues} />
 					<Route path='/OurBehaviours' component={OurBehaviours} />

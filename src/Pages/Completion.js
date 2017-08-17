@@ -28,7 +28,7 @@ export default class About extends Component {
 				            <h2>Time to continue your personal British Council journey</h2>
 				            <hr/>
 				            <p>
-					            Enter the code given by your line manager before you began your induction
+					            Enter the code given to you by your line manager before you began your induction
 					            to learn more about your individual department.
 					        </p>
 				        </header>

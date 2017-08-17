@@ -18,8 +18,7 @@ export default class OurBehaviours extends Component {
 				            "Our Values",
 				            "Our Behaviours",
 				            "Our SBU's",
-				            "Key Information",
-				            "Finish Up"
+				            "Key Information"
 		      			]}
 		        	/>
 		          	<SwipeWrapper />

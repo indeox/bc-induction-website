@@ -117,25 +117,25 @@ img {
 }
 
 #slide2 {
-  background-image: url("Images/thegreatd.jpg");
+  background-image: url("Images/PL_BC_157.jpg");
 }
 
 #slide3:before {
-  background-image: url("Images/greatd2.jpg");
+  background-image: url("Images/BC_47.jpg");
   transform: translateZ(-1px) scale(1);
   z-index:-1;
 }
 
 #slide4 {
-  background-image: url("Images/uruguay.png");
+  background-image: url("Images/BCP_PPR4_201.jpg");
 }
 
 #slide5 {
-  background-image: url("Images/classroom.jpg");
+  background-image: url("Images/BC_152_4.jpg");
 }
 
 #slide6 {
-  background-image: url("Images/teaching.jpg");
+  background-image: url("Images/PL_BC_116.jpg");
 }
 
 #slide7 {
