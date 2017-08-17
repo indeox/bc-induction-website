@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router';
+import { Redirect } from 'react-router-dom';
 
 class RegisterForm extends Component {
 
@@ -42,10 +42,16 @@ class Input extends Component {
 
   	render() {
 
-  		if (this.state.submitted) {
+  		if (this.state.value == 'BC_DIG_LOND' && 
+  			this.state.submitted) {
        		return (
         		<Redirect to="/History"/>
       		);
+     	}
+     	else if (this.state.value != 'BC_DIG_LOND' && 
+  			this.state.submitted) {
+     		alert(this.state.value + ' is not a correct British Council induction code. Please try again.');
+     		this.state.submitted = false;
      	}
 
     	return (
