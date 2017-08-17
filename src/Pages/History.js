@@ -21,8 +21,8 @@ export default class QuizPage extends Component {
 				            "Our SBU's",
 				            "Key Information"
 	          			]}
-
-	          		/><br /><br />
+	          		/>
+	          		<br /><br />
 
 					<Parallax.Layer offset={0} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={0.5} speed={1} style={{ backgroundColor: 'black' }} />
