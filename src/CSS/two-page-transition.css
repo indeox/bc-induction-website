@@ -1,0 +1,289 @@
+@import url("//fonts.googleapis.com/css?family=Poppins");
+
+.button-row {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: black 5px solid; /*for testing*/
+  width: 100%;
+  height: 80%;
+  /*BLUE BLOCKS background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F05%2F3D-Futuristic-Room-Wallpaper.jpg&f=1);*/
+  /*WHITE ROOM*/ background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fmscoria.weebly.com%2Fuploads%2F1%2F7%2F9%2F3%2F179325%2F_6681898_orig.jpg&f=1);
+  /*BLUEBLK BOX background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F05%2F3D-Futuristic-Room-Wallpaper.jpg&f=1);*/
+  background-repeat: no-repeat;
+  background-position: center /*top*/;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.button-row > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/*********************
+* Content
+*********************/
+.button-row > div > .sbu-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /*-webkit-transform: translateZ(-25px);
+  -moz-transform: translateZ(-25px);
+  -ms-transform: translateZ(-25px);
+  -o-transform: translateZ(-25px);*/
+  transform: translateZ(0px);
+  /*-webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;*/
+  transition: transform 0.6s ease;
+  /*from before and after*/
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  border: 5px solid white;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.button-row > div > .sbu-content-clicked {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /*-webkit-transform: translateZ(-25px);
+  -moz-transform: translateZ(-25px);
+  -ms-transform: translateZ(-25px);
+  -o-transform: translateZ(-25px);*/
+  /*-webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;*/
+  transition: transform 0.6s ease;;
+  /*from before and after*/
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  border: 5px solid white;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  color: white;
+  /*-webkit-transform: translateZ(-25px) rotateX(-90deg);
+  -moz-transform: translateZ(-25px) rotateX(-90deg);
+  -ms-transform: translateZ(-25px) rotateX(-90deg);
+  -o-transform: translateZ(-25px) rotateX(-90deg);*/
+
+  /*Flip to Center and dissappear*/
+  /*transform: translateZ(-2000px) translateX(0%) rotateY(90deg);*/
+
+  /*Open left like a door*/
+  transform: translateZ(-650px) translateX(-35%) rotateY(70deg);
+}
+
+/*********************
+* Map
+*********************/
+.button-row > div > .sbu-map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /*-webkit-transform: translateZ(-25px);
+  -moz-transform: translateZ(-25px);
+  -ms-transform: translateZ(-25px);
+  -o-transform: translateZ(-25px);*/
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(25deg) translateZ(-320px)
+    translateY(-100%) translateX(22%);
+  /*-webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;*/
+  transition: transform 0.6s ease;
+  /*from before and after*/
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  border: 5px solid white;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #404040;
+  color: #fff;
+}
+
+.button-row > div > .sbu-map-clicked {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /*-webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;*/
+  transition: transform 0.6s ease;
+  /*from before and after*/
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  border: 5px solid white;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #404040;
+  color: #fff;
+  /*-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px)
+    translateY(0%);
+  -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px)
+    translateY(0%);
+  -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px)
+    translateY(0%);
+  -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px)
+    translateY(0%);*/
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px)
+    translateY(0%);
+}
+
+/* 
+* General
+ */
+.swipe-wrapper {
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 70px 0 0 0;
+  margin: 0;
+}
+
+.swipe-wrapper,
+.main {
+  height: 100%;
+}
+
+/********
+* Button (should make this a component later)
+*********/
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  width: 170px;
+  background: none;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  border: 3px solid white;
+  font-family: 'Poppins', sans-serif;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -15px;
+  overflow: hidden;
+  -webkit-transition: border-color 0.3s, color 0.3s;
+  transition: border-color 0.3s, color 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+
+  font-weight: bold;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background: #37474f;
+  z-index: -1;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s,
+    background-color 0.3s;
+  -webkit-transition: opacity 0.3s, background-color 0.3s,
+    -webkit-transform 0.3s;
+  transition: opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s,
+    -webkit-transform 0.3s;
+}
+
+.button:hover {
+  color: black;
+  border-color: white;
+  cursor: pointer;
+}
+
+.button:hover::before {
+  opacity: 1;
+  background-color: white;
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  transform: rotate3d(0, 0, 1, 0deg);
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
