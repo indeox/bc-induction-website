@@ -1,6 +1,10 @@
 /****************************************/
 /** Profile card **/
 
+.justifyText {
+  text-align: justify;
+}
+
 .profile-card {
   background-color: #222222;
   margin-bottom: 20px;
@@ -17,6 +21,8 @@
   max-width: 100px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  height: 95px;
+  width: 150px;
 }
 
 .profile-info {
