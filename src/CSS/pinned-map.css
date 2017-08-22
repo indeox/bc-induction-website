@@ -8,9 +8,10 @@
 }*/
 
 .map {
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 100px;
+  /*max-width: 1200px;*/
+  height: 100%;
+  margin: 10px auto;
+  padding: 10px;
   overflow-x: hidden;
   /*added from html*/
   background: #4d4d4d;

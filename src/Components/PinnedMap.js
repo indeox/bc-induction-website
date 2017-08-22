@@ -9,7 +9,7 @@ const PinnedMap = ({ className = "" }) => {
     <div className="map">
       <h1>So you're probably wondering what an "SBU" is and why you decided to join one...</h1>
       <p className="above-map-description">
-        WORDS. 
+        MORE WORDS. 
         <strong>Click the points to read about some SBU stuff.</strong>
       </p>
       <div className="distribution-map">
@@ -38,7 +38,7 @@ const PinnedMap = ({ className = "" }) => {
           <div className="content">
             <div className="centered-y">
               <h2>Place</h2>
-              <p>I solemnly swear that I am up to no good</p>
+              <p>blah blah blah</p>
             </div>
           </div>
         </button>
@@ -46,7 +46,7 @@ const PinnedMap = ({ className = "" }) => {
           <div className="content">
             <div className="centered-y">
               <h2>Place</h2>
-              <p>I&rsquo;m a marshmallow</p>
+              <p>blah blah blah</p>
             </div>
           </div>
         </button>
@@ -54,7 +54,7 @@ const PinnedMap = ({ className = "" }) => {
           <div className="content">
             <div className="centered-y">
               <h2>Place</h2>
-              <p>I bless the rains</p>
+              <p>blah blah blah</p>
             </div>
           </div>
         </button>
@@ -62,7 +62,7 @@ const PinnedMap = ({ className = "" }) => {
           <div className="content">
             <div className="centered-y">
               <h2>Place</h2>
-              <p>&mdash; 007</p>
+              <p>blah blah blah</p>
             </div>
           </div>
         </button>
