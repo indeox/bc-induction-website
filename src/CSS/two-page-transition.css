@@ -10,7 +10,7 @@
   display: inline-flex;
   border: black 5px solid; /*for testing*/
   width: 100%;
-  height: 80%;
+  height: 100%;
   /*BLUE BLOCKS background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F05%2F3D-Futuristic-Room-Wallpaper.jpg&f=1);*/
   /*WHITE ROOM*/ background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fmscoria.weebly.com%2Fuploads%2F1%2F7%2F9%2F3%2F179325%2F_6681898_orig.jpg&f=1);
   /*BLUEBLK BOX background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F05%2F3D-Futuristic-Room-Wallpaper.jpg&f=1);*/
@@ -204,21 +204,20 @@
     translateY(0%);
 }
 
-/* 
+/**********
 * General
- */
-.swipe-wrapper {
+ ********/
+.pg-wrapper {
   font-family: "Oswald", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding: 70px 0 0 0;
-  margin: 0;
+  padding: 0;
+  margin: 0 0 50px 0;
 }
 
-.swipe-wrapper,
+.pg-wrapper,
 .main {
-  height: 100%;
+  height: 800px;
 }
+
 
 /********
 * Button (should make this a component later)

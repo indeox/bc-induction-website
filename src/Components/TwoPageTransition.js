@@ -4,6 +4,8 @@
 import "../CSS/two-page-transition.css";
 import React, { Component } from "react";
 
+import SwipeButton from "../Components/SwipeButton.js";
+
 export default class TwoPageTransition extends React.Component {
   constructor(props) {
     super(props);
@@ -13,7 +15,7 @@ export default class TwoPageTransition extends React.Component {
   render() {
     console.log("sbuIsClicked: " + this.state.sbuIsClicked);
     return (
-      <div className="swipe-wrapper">
+      <div className="pg-wrapper">
         <div className="main">
           <div className="button-row">
             <div>
@@ -24,8 +26,22 @@ export default class TwoPageTransition extends React.Component {
                     : "sbu-content"
                 }
               >
-                <h1>----------sbu info-----------</h1>
-                <button className="button" onClick={this.onSBUClick()} tabIndex="1" > See Map </button>
+                <h1>
+                  {this.props.leftPageHeader}
+                </h1>
+                <h2>
+                  {this.props.leftPageSubtitle1}
+                </h2>
+                <p>
+                  {this.props.leftPageContent1}
+                </p>
+                <h2>
+                  {this.props.leftPageSubtitle2}
+                </h2>
+                <p>
+                  {this.props.leftPageContent2}
+                </p>
+                <SwipeButton title="See Map" clickAction={this.onSBUClick()}/>
               </div>
               <div
                 className={
@@ -33,8 +49,14 @@ export default class TwoPageTransition extends React.Component {
                 }
                 tabIndex="1"
               >
-                {this.props.map}
-                <button className="button" onClick={this.onSBUClick()} tabIndex="1"> Back to Info </button>
+                {this.props.rightPageContent}
+                <button
+                  className="button"
+                  onClick={this.onSBUClick()}
+                  tabIndex="1"
+                >
+                  Back to Info
+                </button>
               </div>
             </div>
           </div>
