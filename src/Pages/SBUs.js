@@ -13,7 +13,7 @@ export default class OurBehaviours extends Component {
 		        <Parallax ref="parallax" pages={1.2}>
 		        	<ProgressBar 
 		        		continueLink={"#/NeedToKnow"}
-						currentIndex={3}
+						    currentIndex={3}
 				        stepLabels={[
 				            "Our History",
 				            "Our Values",
@@ -22,8 +22,7 @@ export default class OurBehaviours extends Component {
 				            "Key Information"
 		      			]}
 		        	/>
-		          	<SwipeWrapper />
-		          	<Footer />
+		          <Footer />
 		        </Parallax>
 	      	</div>
     	);

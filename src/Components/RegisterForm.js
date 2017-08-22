@@ -69,7 +69,7 @@ class Input extends Component {
 		            	<input type="submit" value="Submit" className="btn-lg btn-success" />
 		            </div>
 				</div>
-			</form>
+			 </form>
         );
   	}
 }
