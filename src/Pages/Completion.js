@@ -11,7 +11,6 @@ export default class About extends Component {
 		return (
 			<div>
 				<Parallax ref='parallax' pages={1}>
-					<div className="container">
 						<ProgressBar 
 							continueLink={"#/Completion"}
 							currentIndex={5}
@@ -25,17 +24,8 @@ export default class About extends Component {
 		          			]}
 		          			test={false}
 		          		/>
-		          		<br/><br/><br/><br/><br/><br/>
-		          		<header className="jumbotron hero-spacer">
-				            <h2>Time to continue your personal British Council journey</h2>
-				            <hr/>
-				            <p>
-					            Enter the code given to you by your line manager before you began your induction
-					            to learn more about your individual department.
-					        </p>
-				        </header>
+		          		<br/><br/>
 		          		<RegisterForm />
-		          	</div>
 		          	<Footer />
 				</Parallax>
 			</div>

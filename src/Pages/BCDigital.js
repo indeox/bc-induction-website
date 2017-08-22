@@ -5,6 +5,7 @@ import Footer from '../Components/Footer.js';
 import ProgressBar from '../Components/ProgressBar';
 // Images
 import dave from '../Images/Hong_Kong_00016.jpg';
+import Emma from '../Images/emma.jpg';
 import Nancy from '../Images/nancy.jpg';
 import Rebecca from '../Images/rebecca.png';
 
@@ -126,13 +127,15 @@ export default class BCDigital extends Component {
 										</div>
 										<div className="col-md-4">
 											<div className="profile-card text-center">
-												<img className="img-responsive" src={dave} alt='#' />
+												<img className="img-responsive" src={Emma} alt='#' />
 												<div className="profile-info">
-													<img className="profile-pic" src={dave} alt='#' />
+													<img className="profile-pic" src={Emma} alt='#' />
 									              	<h2 className="hvr-underline-from-center">Emma<span>Marketing</span></h2>
-								              		<div className='justifyText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum 
-								              		dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, 
-								              		consectetur adipiscing elit.</div>
+								              		<div className='justifyText'>I am a currently working as the digital marketing intern from Cardiff, for the Arts sector of the British Council. 
+								              		My work ranges of projects all over the world from Saptan Stories in India to the Hull city of culture showcase.</div>
+								              		<br/>
+								              		<div className='justifyText'>I'm very sociable and so enjoy spending as much time as I can with friends and family outside of work. I love music and regularly got to music events,
+								              		performances or festivals.</div>
 								              		<a href="http://www.twitter.com/mike_youngg"><i className="fa fa-twitter fa-2x"></i></a>
 								              		<a href="mailto:michael_y@live.co.uk"><i className="fa fa-envelope-o fa-2x"></i></a>
 								              		<a href="http://www.linkedin.com"><i className="fa fa-linkedin fa-2x"></i></a>
