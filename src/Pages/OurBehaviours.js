@@ -2,13 +2,14 @@ import Parallax from 'react-springy-parallax';
 import React, { Component } from "react";
 
 import Accordian from "../Components/Accordian.js";
+import Footer from '../Components/Footer.js';
 import ProgressBar from "../Components/ProgressBar.js";
 
 export default class OurBehaviours extends Component {
     render() {
         return (
             <div>
-                <Parallax pages={1.35}>
+                <Parallax pages={1.4}>
                     <ProgressBar
                         continueLink={"#/SBUs"}
                         currentIndex={2}
@@ -49,6 +50,7 @@ export default class OurBehaviours extends Component {
                         ]}
             		      tabHeight={"800px"}
                     />
+                    <Footer />
                 </Parallax>
             </div>
         );

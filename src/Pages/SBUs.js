@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Parallax from "react-springy-parallax";
 
+import Footer from '../Components/Footer.js';
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import SwipeWrapper from "../Components/SwipeWrapper.js";
@@ -22,6 +23,7 @@ export default class OurBehaviours extends Component {
 		      			]}
 		        	/>
 		          	<SwipeWrapper />
+		          	<Footer />
 		        </Parallax>
 	      	</div>
     	);
