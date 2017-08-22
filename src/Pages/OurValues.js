@@ -2,6 +2,7 @@ import Parallax from 'react-springy-parallax';
 import React, { Component } from "react";
 
 import Accordian from "../Components/Accordian.js";
+import Footer from "../Components/Footer.js";
 import ProgressBar from "../Components/ProgressBar.js";
 
 export default class OurValues extends Component {
@@ -9,7 +10,7 @@ export default class OurValues extends Component {
     render() {
         return (
             <div>
-                <Parallax pages={1.65}>
+                <Parallax pages={1.71}>
                     <ProgressBar
                       continueLink={"#/OurBehaviours"}
                       currentIndex={1}
@@ -40,6 +41,7 @@ export default class OurValues extends Component {
                         ]}
             		    tabHeight={"1000px"}
                     />
+                    <Footer />
                 </Parallax>
             </div>
         );

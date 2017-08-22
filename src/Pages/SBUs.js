@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Parallax from "react-springy-parallax";
 
+import Footer from '../Components/Footer.js';
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";

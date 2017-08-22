@@ -42,7 +42,7 @@ class Input extends Component {
 
   	render() {
 
-  		if (this.state.value == 'BC_DIG_LOND' && 
+  		if (this.state.value === 'BC_DIG_LOND' && 
   			this.state.submitted) {
        		return (
         		<Redirect to="/BCDigital"/>
@@ -69,7 +69,7 @@ class Input extends Component {
 		            	<input type="submit" value="Submit" className="btn-lg btn-success" />
 		            </div>
 				</div>
-			</form>
+			 </form>
         );
   	}
 }
