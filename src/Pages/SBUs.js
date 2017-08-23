@@ -15,7 +15,7 @@ export default class OurBehaviours extends Component {
             className="sbu-above-header"
             style={{ margin: "100px 100px 10px 100px" }}
           >
-            Small Business Units within the British Council
+            Strategic Business Units within the British Council
           </h1>
           <div
             className="sbu-above-descrip"
@@ -46,7 +46,7 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "The arts department is separated by art form. Each art form carries out work in its field to help achieve arts’ aim of building connections. For example, the film team has recently screened ‘five films for freedom’ by Syrian filmmakers about their experiences. "
             }
-            rightPageContent={<PinnedMap />}
+            rightPageContent={<PinnedMap mapMaxWidth={1440}/>}
           />
           <TwoPageTransition
             leftPageHeader={"About the Education and Society SBU"}
@@ -58,7 +58,7 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "The HSBC / British Council Schools Programme involves a range of collaborative activities to promote the teaching of Mandarin and Chinese culture in UK schools and to enhance UK school partnerships with China."
             }
-            rightPageContent={<PinnedMap />}
+            rightPageContent={<PinnedMap mapMaxWidth={1440}/>}
           />
           <TwoPageTransition
             leftPageHeader={"About the English and Exams SBU"}
@@ -70,7 +70,7 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "English and Exams have recently worked with the EU to teach English to nearly 3000 displaced Syrians in Jordan, Lebanon and Northern Syria. This will offer alternative pathways and give them the tools to build stable, inclusive and prosperous futures."
             }
-            rightPageContent={<PinnedMap />}
+            rightPageContent={<PinnedMap mapMaxWidth={1440}/>}
           />
           <h1
             className="sbu-below-header"

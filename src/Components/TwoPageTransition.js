@@ -50,13 +50,7 @@ export default class TwoPageTransition extends React.Component {
                 tabIndex="1"
               >
                 {this.props.rightPageContent}
-                <button
-                  className="button"
-                  onClick={this.onSBUClick()}
-                  tabIndex="1"
-                >
-                  Back to Info
-                </button>
+                <SwipeButton title="Back to Info" clickAction={this.onSBUClick()}/>
               </div>
             </div>
           </div>
