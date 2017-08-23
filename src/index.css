@@ -5,6 +5,11 @@
   height: 1000px;
 }
 
+#greyMane {
+  background-color: grey;
+  opacity: 0.905;
+}
+
 /****************************************/
 /** Contact section **/
 

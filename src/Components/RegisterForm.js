@@ -107,21 +107,24 @@ class Input extends Component {
                       />
                     </div>
                   </div>
+
                   <div className="col-md-6">
-                    <div className="form-group">
-                      <label for ="description"> Please Read</label>
-                      <h3>You will now enter into your personal British Council journey, tailored to your specific role.</h3>
-                      <h3>This will introduce you to your team members, workplace, and any vital information you may need to know
-                      before you begin.</h3>
+                    <div className="well" id="greyMane">
+                      <div className="form-group">
+                        <label for ="description"> Please Read</label>
+                        <h3>You will now enter into your personal British Council journey, tailored to your specific role.</h3>
+                        <h3>This will introduce you to your team members, workplace, and any vital information you may need to know
+                        before you begin.</h3>
+                      </div>
+                      <div>
+                        <button 
+                          type="submit" 
+                          className="btn btn-default submit">
+                          <i className="fa fa-paper-plane" aria-hidden="true"></i>   Submit
+                        </button>
+                      </div>
                     </div>
-                    <div>
-                      <button 
-                        type="submit" 
-                        className="btn btn-default submit">
-                        <i className="fa fa-paper-plane" aria-hidden="true"></i>   Submit
-                      </button>
-                    </div>
-                </div>
+                  </div>
               </form>
             </div>
           </div>
