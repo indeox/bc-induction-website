@@ -48,7 +48,7 @@ export default class BCDigital extends Component {
           										miniProfile={Nancy}
           										name="Nancy"
           										profileImage={Nancy}
-          										role="Games"
+          										roles="Games"
           										twitter=""
           									>
 	          									I'm a politics student currently studying at LSE, who loves playing games, 
@@ -62,7 +62,7 @@ export default class BCDigital extends Component {
           										miniProfile={Kristen}
           										name="Kirsten"
           										profileImage={Kristen}
-          										role="Web Development"
+          										roles="Web Development"
           										twitter=""
           									>
 	          									I am interning with The British Council’s Digital Team 
@@ -86,7 +86,7 @@ export default class BCDigital extends Component {
           										miniProfile={Rebecca}
           										name="Rebecca"
           										profileImage={Rebecca}
-          										role="Cultural Skills"
+          										roles="Cultural Skills"
           										twitter=""
           									>
 	          									I'm interning with the Cultural Skills Unit, where I assist with programmes, communications, 
@@ -113,7 +113,7 @@ export default class BCDigital extends Component {
           										miniProfile={Aqila}
           										name="Aqila"
           										profileImage={Aqila}
-          										role="Law"
+          										roles="Law"
           										text=""
           										twitter=""
           									>
@@ -130,7 +130,7 @@ export default class BCDigital extends Component {
           										miniProfile={Chris}
           										name="Chris"
           										profileImage={Chris}
-          										role="Web Developer"
+          										roles="Web Developer"
           										text=""
           										twitter=""
           									>
@@ -145,7 +145,7 @@ export default class BCDigital extends Component {
           										miniProfile={Emma}
           										name="Emma"
           										profileImage={Emma}
-          										role="Marketing"
+          										roles="Marketing"
           										twitter="emma"
           									>
 	          									I am a currently working as the digital marketing intern from Cardiff, for the Arts sector of the British Council.

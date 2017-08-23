@@ -1,9 +1,16 @@
 import Parallax from 'react-springy-parallax';
 import React, { Component } from "react";
-
+// Components
 import Accordian from "../Components/Accordian.js";
 import Footer from '../Components/Footer.js';
 import ProgressBar from "../Components/ProgressBar.js";
+// Images
+import A from '../Images/classroom.jpg';
+import B from '../Images/write.jpg';
+import C from '../Images/smile.jpg';
+import D from '../Images/suits.jpg';
+import E from '../Images/team.jpg';
+import F from '../Images/token.jpg';
 
 export default class OurBehaviours extends Component {
     render() {
