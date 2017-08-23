@@ -6,6 +6,8 @@ import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";
 
+import bgPic1 from "../Images/China_00002.jpg";
+
 export default class OurBehaviours extends Component {
   render() {
     return (
@@ -37,6 +39,7 @@ export default class OurBehaviours extends Component {
             ]}
           />
           <TwoPageTransition
+            bgPicURL= {bgPic1}
             leftPageHeader={"About the Arts SBU"}
             leftPageSubtitle1={"Who We Are"}
             leftPageContent1={

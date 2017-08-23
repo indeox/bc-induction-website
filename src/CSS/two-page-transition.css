@@ -66,7 +66,7 @@
   display: -moz-flex;
   display: -ms-flexbox;
   display: block;
-  background-color: black;
+  background-color:rgba(0,0,0,0.7);
   color: white;
   overflow: scroll;
 }
@@ -138,7 +138,7 @@
 /*********************
 * Map
 *********************/
-.button-row > div > .sbu-map {
+.button-row > .sbu-map {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -181,7 +181,7 @@
   margin-right: 60px;
 }
 
-.button-row > div > .sbu-map-clicked {
+.button-row > .sbu-map-clicked {
   margin: 0;
   padding: 0;
   width: 100%;
