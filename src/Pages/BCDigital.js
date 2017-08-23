@@ -16,7 +16,6 @@ import Rebecca from '../Images/rebecca.png';
 export default class BCDigital extends Component {
 
   	render() {
-  		console.log(this.props.inductionFormState);
     	return (
     		<Parallax ref='parallax' pages={3.195}>
 				<ProgressBar 
