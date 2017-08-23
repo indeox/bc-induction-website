@@ -90,6 +90,7 @@ export default class OurBehaviours extends Component {
             – we do have to mention them, it’s a little rude not to, especially
             as some people who join will actually be joining those teams).
           </div>
+          <Footer />
         </Parallax>
       </div>
     );

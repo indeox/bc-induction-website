@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-import { connect } from 'react-router-dom';
 
 class RegisterForm extends Component {
 
