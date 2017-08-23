@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Parallax from "react-springy-parallax";
 
-import Footer from '../Components/Footer.js';
+import Footer from "../Components/Footer.js";
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";
 
 import bgPic1 from "../Images/China_00002.jpg";
+import bgPic2 from "../Images/UCL_218_.jpg";
+import bgPic3 from "../Images/Ghana_00757.jpg";
 
 export default class OurBehaviours extends Component {
   render() {
@@ -39,7 +41,7 @@ export default class OurBehaviours extends Component {
             ]}
           />
           <TwoPageTransition
-            bgPicURL= {bgPic1}
+            bgPicURL={bgPic1}
             leftPageHeader={"About the Arts SBU"}
             leftPageSubtitle1={"Who We Are"}
             leftPageContent1={
@@ -49,9 +51,10 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "The arts department is separated by art form. Each art form carries out work in its field to help achieve arts’ aim of building connections. For example, the film team has recently screened ‘five films for freedom’ by Syrian filmmakers about their experiences. "
             }
-            rightPageContent={<PinnedMap mapMaxWidth={1440}/>}
+            rightPageContent={<PinnedMap mapMaxWidth={1440} />}
           />
           <TwoPageTransition
+            bgPicURL={bgPic2}
             leftPageHeader={"About the Education and Society SBU"}
             leftPageSubtitle1={"Who We Are"}
             leftPageContent1={
@@ -61,9 +64,10 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "The HSBC / British Council Schools Programme involves a range of collaborative activities to promote the teaching of Mandarin and Chinese culture in UK schools and to enhance UK school partnerships with China."
             }
-            rightPageContent={<PinnedMap mapMaxWidth={1440}/>}
+            rightPageContent={<PinnedMap mapMaxWidth={1440} />}
           />
           <TwoPageTransition
+            bgPicURL={bgPic3}
             leftPageHeader={"About the English and Exams SBU"}
             leftPageSubtitle1={"Who We Are"}
             leftPageContent1={
@@ -73,7 +77,7 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "English and Exams have recently worked with the EU to teach English to nearly 3000 displaced Syrians in Jordan, Lebanon and Northern Syria. This will offer alternative pathways and give them the tools to build stable, inclusive and prosperous futures."
             }
-            rightPageContent={<PinnedMap mapMaxWidth={1440}/>}
+            rightPageContent={<PinnedMap mapMaxWidth={1440} pinHeaders={["hey", "yeah"]}/>}
           />
           <h1
             className="sbu-below-header"
