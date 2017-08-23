@@ -1,4 +1,3 @@
-@import url("//fonts.googleapis.com/css?family=Poppins");
 
 .button-row {
   display: -webkit-inline-box;
@@ -8,7 +7,6 @@
   display: -moz-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  border: black 5px solid; /*for testing*/
   width: 100%;
   height: 100%;
   /*BLUE BLOCKS background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F05%2F3D-Futuristic-Room-Wallpaper.jpg&f=1);*/
@@ -36,11 +34,11 @@
 *********************/
 .button-row > div > .sbu-content {
   margin: 0;
-  padding: 0;
+  padding: 50px;
   width: 100%;
   height: 100%;
   z-index: 2;
-  position: absolute;
+  border-radius: 20px;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
@@ -61,15 +59,34 @@
   position: absolute;
   border: 5px solid white;
   box-sizing: border-box;
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -moz-box;
-  display: box;
+  display: box;*/
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   background-color: black;
   color: white;
+  overflow: scroll;
+}
+
+.pg-wrapper h1 {
+  text-align: center;
+  margin: 60px 0px;
+}
+.pg-wrapper h2 {
+  color: #008fb3;
+  margin: 20px 40px 20px 40px;
+}
+.pg-wrapper p {
+  color: lightgray;
+  margin: 0px 40px 60px 40px;
+}
+
+.pg-wrapper button {
+  float: right;
+  margin-right: 60px;
 }
 
 .button-row > div > .sbu-content-clicked {
@@ -96,7 +113,6 @@
   align-items: center;
   margin: 0;
   position: absolute;
-  border: 5px solid white;
   box-sizing: border-box;
   display: -webkit-box;
   display: -moz-box;
@@ -104,7 +120,7 @@
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   background-color: black;
   color: white;
   /*-webkit-transform: translateZ(-25px) rotateX(-90deg);
@@ -116,7 +132,7 @@
   /*transform: translateZ(-2000px) translateX(0%) rotateY(90deg);*/
 
   /*Open left like a door*/
-  transform: translateZ(-650px) translateX(-35%) rotateY(70deg);
+  transform: translateZ(-850px) translateX(-35%) rotateY(70deg);
 }
 
 /*********************
@@ -148,7 +164,6 @@
   align-items: center;
   margin: 0;
   position: absolute;
-  border: 5px solid white;
   box-sizing: border-box;
   display: -webkit-box;
   display: -moz-box;
@@ -161,12 +176,18 @@
   color: #fff;
 }
 
+.sbu-map-clicked button {
+  float: right;
+  margin-right: 60px;
+}
+
 .button-row > div > .sbu-map-clicked {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
+  border-radius: 20px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -189,7 +210,7 @@
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   background-color: #404040;
   color: #fff;
   /*-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px)
@@ -219,70 +240,3 @@
 }
 
 
-/********
-* Button (should make this a component later)
-*********/
-.button {
-  display: inline-block;
-  padding: 10px 30px;
-  width: 170px;
-  background: none;
-  color: inherit;
-  vertical-align: middle;
-  position: relative;
-  z-index: 1;
-  border: 3px solid white;
-  font-family: 'Poppins', sans-serif;
-  -webkit-backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  margin-top: -15px;
-  overflow: hidden;
-  -webkit-transition: border-color 0.3s, color 0.3s;
-  transition: border-color 0.3s, color 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-
-  font-weight: bold;
-}
-
-.button:focus {
-  outline: none;
-}
-
-.button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 150%;
-  height: 100%;
-  background: #37474f;
-  z-index: -1;
-  -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
-  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
-  -webkit-transform-origin: 0% 100%;
-  transform-origin: 0% 100%;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s,
-    background-color 0.3s;
-  -webkit-transition: opacity 0.3s, background-color 0.3s,
-    -webkit-transform 0.3s;
-  transition: opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
-  transition: transform 0.3s, opacity 0.3s, background-color 0.3s,
-    -webkit-transform 0.3s;
-}
-
-.button:hover {
-  color: black;
-  border-color: white;
-  cursor: pointer;
-}
-
-.button:hover::before {
-  opacity: 1;
-  background-color: white;
-  -webkit-transform: rotate3d(0, 0, 1, 0deg);
-  transform: rotate3d(0, 0, 1, 0deg);
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-}

@@ -4,20 +4,15 @@
 import "../CSS/pinned-map.css";
 import React, { Component } from "react";
 
-const PinnedMap = ({ className = "" }) => {
+const PinnedMap = ({ mapMaxWidth, className = "" }) => {
   return (
-    <div className="map">
-      <h1>So you're probably wondering what an "SBU" is and why you decided to join one...</h1>
-      <p className="above-map-description">
-        MORE WORDS. 
-        <strong>Click the points to read about some SBU stuff.</strong>
-      </p>
+    <div className="map" style={{maxWidth: mapMaxWidth+"px"}}>
       <div className="distribution-map">
         <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" />
         <button className="map-point" style={{top: "15%", left: "35%"}}>
           <div className="content">
             <div className="centered-y">
-              <h2>A Place</h2>
+              <h2 id="location">A Place</h2>
               <p>
                 You can put plenty of details in here. In the original, I listed
                 contact information and linked phone numbers and email
@@ -37,7 +32,10 @@ const PinnedMap = ({ className = "" }) => {
         <button className="map-point" style={{top: "76%", left: "82.5%"}}>
           <div className="content">
             <div className="centered-y">
-              <h2>Place</h2>
+              <h2 id="location" >Place</h2>
+              <img id="location-pic" src="http://lorempixel.com/600/600/nature/1/"/>
+              <p>blah blah blah</p>
+              <p>blah blah blah</p>
               <p>blah blah blah</p>
             </div>
           </div>
@@ -67,9 +65,6 @@ const PinnedMap = ({ className = "" }) => {
           </div>
         </button>
       </div>
-      <p className="below-map-description">
-        MORE INFO HOORAY!
-      </p>
     </div>
   ); //end of return
 }; //end of const 
