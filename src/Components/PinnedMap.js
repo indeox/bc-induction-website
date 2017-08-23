@@ -2,13 +2,13 @@
 * Pinned Map component
 */
 import "../CSS/pinned-map.css";
-import React, { Component } from "react";
+import React from "react";
 
 const PinnedMap = ({ mapMaxWidth, className = "" }) => {
   return (
     <div className="map" style={{maxWidth: mapMaxWidth+"px"}}>
       <div className="distribution-map">
-        <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" />
+        <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" alt='.' />
         <button className="map-point" style={{top: "15%", left: "35%"}}>
           <div className="content">
             <div className="centered-y">
@@ -33,7 +33,7 @@ const PinnedMap = ({ mapMaxWidth, className = "" }) => {
           <div className="content">
             <div className="centered-y">
               <h2 id="location" >Place</h2>
-              <img id="location-pic" src="http://lorempixel.com/600/600/nature/1/"/>
+              <img id="location-pic" src="http://lorempixel.com/600/600/nature/1/" alt='.' />
               <p>blah blah blah</p>
               <p>blah blah blah</p>
               <p>blah blah blah</p>
