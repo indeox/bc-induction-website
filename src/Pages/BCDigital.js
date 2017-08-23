@@ -12,6 +12,7 @@ import Rebecca from '../Images/rebecca.png';
 export default class BCDigital extends Component {
 
   	render() {
+  		console.log(this.props.inductionFormState);
     	return (
     		<Parallax ref='parallax' pages={4}>
 				<ProgressBar 
@@ -24,7 +25,7 @@ export default class BCDigital extends Component {
 	      		<br/><br/><br/>
 
 				<div className="container-fluid bg-2 text-center">
-				  	<h3 className="margin">Welcome to BC Digital Chris - Your New Team</h3>
+				  	<h3 className="margin">Welcome to BC Digital {this.props.inductionFormState.exampleInputUsername} - Your New Team</h3>
 				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
 				  	dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
 				  	ea commodo consequat. </p>

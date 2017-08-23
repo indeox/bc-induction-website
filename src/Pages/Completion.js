@@ -25,7 +25,10 @@ export default class About extends Component {
 		          			test={false}
 		          		/>
 		          		<br/><br/>
-		          		<RegisterForm />
+		          		<RegisterForm 
+		          			appState={this.props.appState}
+		          			setFormState={this.props.setFormState}
+		          		/>
 		          	<Footer />
 				</Parallax>
 			</div>

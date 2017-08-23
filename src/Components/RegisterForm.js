@@ -11,6 +11,8 @@ class RegisterForm extends Component {
 					type="text" 
 					placeholder="Enter your British Council Induction Code"
 					class="form-control"
+          appState={this.props.appState}
+          setFormState={this.props.setFormState}
 				/>
 			</div>
 		);
@@ -43,7 +45,7 @@ class Input extends Component {
 
   	render() {
 
-  		if (this.state.value === 'BC_DIG_LOND' && 
+  		if (this.state.value === 'BC_IND_LOND' && 
   			this.state.submitted) {
        		return (
         		<Redirect to="/BCDigital"/>
@@ -75,7 +77,11 @@ class Input extends Component {
                     <div className="form-group">
                       <label for="exampleInputUsername">Your name</label>
                       <input 
-                        type="text" 
+                        type="text"
+                        onChange={
+                          (event) => this.props.setFormState('exampleInputUsername', event.target.value)
+                        } 
+                        value={this.props.appState.inductionForm.exampleInputUsername}
                         className="form-control" 
                         id="exampleInputUsername" 
                         placeholder="Enter your name"
