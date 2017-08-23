@@ -13,7 +13,7 @@ export default class About extends Component {
 
 	render() {
 		return (
-			<div>
+			<div id='tuscany'>
 				<Parallax ref='parallax' pages={1}>
 					<div className="container">
 						<ProgressBar 

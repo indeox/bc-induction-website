@@ -1,3 +1,10 @@
+#tuscany {
+  background-image: url('Images/Tuscany10.jpg');
+  font-family: 'Teko', sans-serif;
+  width: 1500px;
+  height: 1000px;
+}
+
 /****************************************/
 /** Contact section **/
 
@@ -11,6 +18,7 @@
   text-align: center; 
 
 }
+
 #contact{
   font-family: 'Teko', sans-serif;
   padding-top: 60px;
@@ -20,9 +28,11 @@
   background-image: url('Images/UCL_188_.jpg');
   color : #fff;    
 }
+
 .contact-section{
   padding-top: 40px;
 }
+
 .contact-section .col-md-6{
   width: 50%;
 }

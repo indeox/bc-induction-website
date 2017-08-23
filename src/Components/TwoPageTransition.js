@@ -6,7 +6,7 @@ import React, { Component } from "react";
 
 import SwipeButton from "../Components/SwipeButton.js";
 
-export default class TwoPageTransition extends React.Component {
+export default class TwoPageTransition extends Component {
   constructor(props) {
     super(props);
     this.state = { sbuIsClicked: false };

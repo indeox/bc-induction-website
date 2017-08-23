@@ -2,7 +2,7 @@
 * Pinned Map component
 */
 import "../CSS/pinned-map.css";
-import React, { Component } from "react";
+import React from "react";
 
 const PinnedMap = ({
   mapMaxWidth,
@@ -47,7 +47,7 @@ function generatePins(
             <h2 id="location">
               {pinHeaders[index]}
             </h2>
-            <img id="location-pic" src={pinImages[index]} />
+            <img id="location-pic" src={pinImages[index]} alt='.'/>
             <p>
               {pinContent1[index]}
             </p>
@@ -64,7 +64,7 @@ function generatePins(
   });
   return (
     <div className="distribution-map">
-      <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" />
+      <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" alt='.'/>
       {pins}
     </div>
   );
