@@ -35,7 +35,7 @@ function generateTabs(tabLabels, tabDescriptions, tabBackgrounds, tabHeight) {
       <li
         className="acc-list-item"
         style={{
-          backgroundImage: tabBackgrounds[index],
+          backgroundImage: `url(${tabBackgrounds[index]})`,
           height: tabHeight
         }}
       >
