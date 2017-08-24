@@ -51,7 +51,22 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "The arts department is separated by art form. Each art form carries out work in its field to help achieve arts’ aim of building connections. For example, the film team has recently screened ‘five films for freedom’ by Syrian filmmakers about their experiences. "
             }
-            rightPageContent={<PinnedMap mapMaxWidth={1440} />}
+            rightPageContent={<PinnedMap 
+              mapMaxWidth={1440} 
+              pinHeaders={["1", "2", "3", "4", "5", "6", "7"]}
+              pinImages={[bgPic1,
+               bgPic1, 
+               bgPic1, 
+               bgPic1, 
+               bgPic1, 
+               bgPic1, 
+               bgPic1]}
+               pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinTopCoords = {["15%", "25%", "35%", "45%", "55%", "65%", "75%"]}
+               pinLeftCoords = {["75%", "65%", "55%", "45%", "35%", "25%", "15%"]}
+              />}
           />
           <TwoPageTransition
             bgPicURL={bgPic2}
@@ -64,7 +79,22 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "The HSBC / British Council Schools Programme involves a range of collaborative activities to promote the teaching of Mandarin and Chinese culture in UK schools and to enhance UK school partnerships with China."
             }
-            rightPageContent={<PinnedMap mapMaxWidth={1440} />}
+            rightPageContent={<PinnedMap 
+              mapMaxWidth={1440} 
+              pinHeaders={["1", "2", "3", "4", "5", "6", "7"]}
+              pinImages={[bgPic2,
+               bgPic2, 
+               bgPic2, 
+               bgPic2, 
+               bgPic2, 
+               bgPic2, 
+               bgPic2]}
+               pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinTopCoords = {["15%", "25%", "35%", "45%", "55%", "65%", "75%"]}
+               pinLeftCoords = {["75%", "65%", "55%", "45%", "35%", "25%", "15%"]}
+              />}
           />
           <TwoPageTransition
             bgPicURL={bgPic3}
@@ -77,7 +107,23 @@ export default class OurBehaviours extends Component {
             leftPageContent2={
               "English and Exams have recently worked with the EU to teach English to nearly 3000 displaced Syrians in Jordan, Lebanon and Northern Syria. This will offer alternative pathways and give them the tools to build stable, inclusive and prosperous futures."
             }
-            rightPageContent={<PinnedMap mapMaxWidth={1440} pinHeaders={["hey", "yeah"]}/>}
+            rightPageContent={
+              <PinnedMap 
+              mapMaxWidth={1440} 
+              pinHeaders={["1", "2", "3", "4", "5", "6", "7"]}
+              pinImages={[bgPic3,
+               bgPic3, 
+               bgPic3, 
+               bgPic3, 
+               bgPic3, 
+               bgPic3, 
+               bgPic3]}
+               pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
+               pinTopCoords = {["15%", "25%", "35%", "45%", "55%", "65%", "75%"]}
+               pinLeftCoords = {["75%", "65%", "55%", "45%", "35%", "25%", "15%"]}
+              />}
           />
           <h1
             className="sbu-below-header"

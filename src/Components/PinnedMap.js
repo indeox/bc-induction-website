@@ -8,9 +8,11 @@ const PinnedMap = ({
   mapMaxWidth,
   pinHeaders,
   pinImages,
-  pinContent1,
-  pinContent2,
-  pinContent3,
+  pinContents1,
+  pinContents2,
+  pinContents3,
+  pinTopCoords,
+  pinLeftCoords,
   className = ""
 }) => {
   return (
@@ -18,9 +20,11 @@ const PinnedMap = ({
       {generatePins(
         pinHeaders,
         pinImages,
-        pinContent1,
-        pinContent2,
-        pinContent3
+        pinContents1,
+        pinContents2,
+        pinContents3,
+        pinTopCoords,
+        pinLeftCoords
       )}
     </div>
   ); //end of return
@@ -31,9 +35,11 @@ export default PinnedMap;
 function generatePins(
   pinHeaders,
   pinImages,
-  pinContent1,
-  pinContent2,
-  pinContent3
+  pinContents1,
+  pinContents2,
+  pinContents3,
+  pinTopCoords,
+  pinLeftCoords
 ) {
   //Creates an array equivalent to the number of labels
   var pinListForMapping = new Array(pinHeaders.length).fill(0);
@@ -41,21 +47,24 @@ function generatePins(
   //Maps the returned label element below to each slot in labelList array
   var pins = pinListForMapping.map((item, index) => {
     return (
-      <button className="map-point" style={{ top: "76%", left: "82.5%" }}>
+      <button
+        className="map-point"
+        style={{ top: pinTopCoords[index], left: pinLeftCoords[index] }}
+      >
         <div className="content">
           <div className="centered-y">
             <h2 id="location">
               {pinHeaders[index]}
             </h2>
-            <img id="location-pic" src={pinImages[index]} alt='.'/>
+            <img id="location-pic" src={pinImages[index]} alt="." />
             <p>
-              {pinContent1[index]}
+              {pinContents1[index]}
             </p>
             <p>
-              {pinContent2[index]}
+              {pinContents2[index]}
             </p>
             <p>
-              {pinContent1[index]}
+              {pinContents3[index]}
             </p>
           </div>
         </div>
@@ -64,7 +73,7 @@ function generatePins(
   });
   return (
     <div className="distribution-map">
-      <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" alt='.'/>
+      <img src="https://s24.postimg.org/jnd9wc0n9/M7a_Uku_S.png" alt="." />
       {pins}
     </div>
   );
