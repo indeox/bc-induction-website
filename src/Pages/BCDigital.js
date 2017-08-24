@@ -5,7 +5,9 @@ import Footer from '../Components/Footer.js';
 import ProfileCard from '../Components/ProfileCard.js';
 import ProgressBar from '../Components/ProgressBar';
 // Images
-import dave from '../Images/Hong_Kong_00016.jpg';
+import classroom from '../Images/classroom.jpg';
+import mutual from '../Images/mutual.jpg';
+import ghana from "../Images/ghana.jpg";
 import Aqila from '../Images/aqila.png';
 import Chris from '../Images/chris.png';
 import Emma from '../Images/emma.jpg';
@@ -28,8 +30,8 @@ export default class BCDigital extends Component {
 	      		<br/><br/><br/>
 
 				<div className="container-fluid bg-2 text-center">
-				  	<h3 className="margin">Welcome to BC Digital {this.props.inductionFormState.exampleInputUsername} - Your New Team</h3>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+				  	<h3 style={{fontSize: "35pt"}}className="margin">Welcome to BC Digital {this.props.inductionFormState.exampleInputUsername} - Your New Team</h3>
+				  	<p style={{color: "#1abc9c", margin: "30px 120px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
 				  	dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
 				  	ea commodo consequat.</p>
 				</div>
@@ -162,22 +164,22 @@ export default class BCDigital extends Component {
   				</div>
 
 				<div className="container-fluid bg-2 text-center">
-				  	<h3 className="margin">Your New Workplace</h3>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				  	<h3 className="margin">About Your New Workplace</h3>
+				  	<p style={{color: "#1abc9c", margin: "30px 120px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				  	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 				
-				<div className="container-fluid bg-1">
+				<div className="container-fluid bg-1" style={{height: "100%"}}>
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="col-md-4">
-								<img src={dave} className="img-responsive" alt="#" class="rounded-top" />
+								<img src={classroom} className="img-responsive" alt="#" class="rounded-top" />
 							</div>
 							<div className="col-md-4">
-								<img src={dave} className="img-responsive" alt="#" class="rounded-top" />
+								<img src={mutual} className="img-responsive" alt="#" class="rounded-top" />
 							</div>
 							<div className="col-md-4">
-								<img src={dave} className="img-responsive" alt="#" class="rounded-top" />
+								<img src={ghana} className="img-responsive" alt="#" class="rounded-top" />
 							</div>
 						</div>
 					</div>

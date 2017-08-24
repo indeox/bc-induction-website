@@ -1,72 +1,92 @@
 #tuscany {
-  background-image: url('Images/Tuscany10.jpg');
+  background-image: url('Images/Kenya_00809.jpg');
   font-family: 'Teko', sans-serif;
   width: 100%;
-  height: 825px;
-  background-repeat: no-repeat;
+  height: 1100px;
   display: block;
-  background-size: contain;
+  background-color: rgba(0, 0, 0, 0.55);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #greyMane {
-  background-color: grey;
-  opacity: 0.905;
+  background-color: rgba(230, 180, 0, 0.77);
+  background-blend-mode: darken;
+  color: black;
+}
+
+#greyMane label {
+  font-family: 'Oleo Script', cursive;
+  font-size: 26pt;
+}
+
+#greyMane h3 {
+  font-size: 16pt;
+}
+
+#greyMane button {
+  font-family: 'Oleo Script', cursive;
+  font-size: 14pt;
 }
 
 /****************************************/
 /** Contact section **/
 
-.content-header{
+.content-header {
   font-family: 'Oleo Script', cursive;
-  color:#fcc500;
+  color: #fcc500;
   font-size: 45px;
 }
 
-.section-content{
-  text-align: center; 
-
+.section-content {
+  text-align: center;
 }
 
-#contact{
-  font-family: 'Teko', sans-serif;
+#contact {
+  font-family: sans-serif;
   padding-top: 60px;
   width: 100%;
   width: 100vw;
-  height: 576px;
+  height: 1000px;
   background-image: url('Images/UCL_188_.jpg');
-  color : #fff;    
+  color: #fff;
 }
 
-.contact-section{
+.contact-section {
   padding-top: 40px;
 }
 
-.contact-section .col-md-6{
+.contact-section .col-md-6 {
   width: 50%;
 }
 
-.form-line{
-  border-right: 1px solid #B29999;
+.form-line {
+  border-right: 1px solid #b29999;
 }
 
-.form-group{
+.form-group {
   margin-top: 10px;
 }
-label{
+label {
   font-size: 1.3em;
   line-height: 1em;
   font-weight: normal;
 }
-.form-control{
+.form-control {
   font-size: 1.3em;
   color: #080808;
 }
 textarea.form-control {
-    height: 135px;
-   /* margin-top: px;*/
+  height: 135px;
+  /* margin-top: px;*/
 }
 
-.submit{
+.submit {
   font-size: 1.1em;
   float: right;
   width: 150px;

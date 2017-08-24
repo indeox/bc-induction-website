@@ -90,7 +90,7 @@ export default class NeedToKnow extends Component {
 					  	</div>
 					</div>
 					<br/>
-					<Footer />
+					<Footer/>
 				</Parallax>
 			</div>
 		);

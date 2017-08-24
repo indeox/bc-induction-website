@@ -64,8 +64,8 @@ export default class OurBehaviours extends Component {
                pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
-               pinTopCoords = {["15%", "25%", "35%", "45%", "55%", "65%", "75%"]}
-               pinLeftCoords = {["75%", "65%", "55%", "45%", "35%", "25%", "15%"]}
+               pinTopCoords = {["70%", "31%", "48%", "65%", "44%","25%", "75%"]}
+               pinLeftCoords = {["30%", "46.5%", "48%", "54%","68%", "75%", "83%"]}
               />}
           />
           <TwoPageTransition

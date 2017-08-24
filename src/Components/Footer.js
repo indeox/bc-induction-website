@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "../CSS/footer.css";
 
 export default class PageLayout extends Component {
-	render() {
-		return (
-			<footer className="footer">
-				<div className="container">
-					<div id="footerText">&copy; British Council 2017</div> 
-				</div>
-			</footer>
-		);
-	}
+  render() {
+    return (
+      <footer className="footer">
+        <div id="footerText">&copy; British Council 2017</div>
+      </footer>
+    );
+  }
 }
