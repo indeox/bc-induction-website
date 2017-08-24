@@ -1,8 +1,11 @@
 #tuscany {
   background-image: url('Images/Tuscany10.jpg');
   font-family: 'Teko', sans-serif;
-  width: 1500px;
-  height: 1000px;
+  width: 100%;
+  height: 825px;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: contain;
 }
 
 #greyMane {
@@ -221,6 +224,8 @@ a {
 /** History page **/
 
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;

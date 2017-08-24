@@ -1,15 +1,15 @@
 import Parallax from 'react-springy-parallax';
 import React, { Component } from 'react';
-
+// Components
 import Footer from '../Components/Footer.js';
 import ProgressBar from '../Components/ProgressBar';
-
+// Images
 import logo from '../Images/Portugal_00005.jpg';
 import edi from '../Images/Stepping_Stone_00145.jpg';
 import intranet from '../Images/Spain_02178.jpg';
 import passport from '../Images/India_00984.jpg';
 
-export default class About extends Component {
+export default class NeedToKnow extends Component {
 
 	render() {
 		return (
