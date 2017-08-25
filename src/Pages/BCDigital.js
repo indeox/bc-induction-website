@@ -62,7 +62,7 @@ export default class BCDigital extends Component {
           										email=""
           										linkedIn=""
           										miniProfile={Kristen}
-          										name="Kirsten"
+          										name="Kristen"
           										profileImage={Kristen}
           										roles="Web Development"
           										twitter=""

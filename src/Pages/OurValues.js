@@ -16,7 +16,7 @@ export default class OurValues extends Component {
     render() {
         return (
             <div>
-                <Parallax pages={1.71}>
+                <Parallax pages={1.3}>
                     <ProgressBar
                       continueLink={"#/OurBehaviours"}
                       currentIndex={1}

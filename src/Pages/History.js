@@ -2,6 +2,7 @@ import Parallax from 'react-springy-parallax';
 import React, { Component } from 'react';
 
 import ProgressBar from '../Components/ProgressBar';
+import Footer from "../Components/Footer.js";
 
 export default class QuizPage extends Component {
 
@@ -9,7 +10,7 @@ export default class QuizPage extends Component {
 
 		return (
 			<div>
-				<Parallax ref='parallax' pages={11.73}>
+				<Parallax ref='parallax' pages={11.76}>
 					<ProgressBar 
 						continueLink={"#/OurValues"}
 						currentIndex={0}
@@ -265,6 +266,7 @@ export default class QuizPage extends Component {
 							</div>
 						</a>
 				    </Parallax.Layer>
+					<Footer />
 				</Parallax>
 			</div>
 		);
