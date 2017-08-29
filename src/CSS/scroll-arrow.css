@@ -1,4 +1,4 @@
-section {
+sections {
   background: none;
   height: 100vh;
   display: -webkit-box;
@@ -19,7 +19,7 @@ section {
   -webkit-align-items: center;
   align-items: center;
 }
-section:before {
+sections:before {
   content: '';
   position: absolute;
   bottom: 100px;
