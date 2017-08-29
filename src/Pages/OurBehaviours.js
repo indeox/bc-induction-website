@@ -19,13 +19,16 @@ export default class OurBehaviours extends Component {
                 <Parallax pages={1.4}>
                     <ProgressBar
                         continueLink={"#/SBUs"}
-                        currentIndex={2}
+                        currentIndex={3}
                         stepLabels={[
+                            "Introduction",
                             "Our History",
                             "Our Values",
                             "Our Behaviours",
                             "Our SBU's",
-                            "Key Information"
+                            "Key Information",
+                            "Meet your Team",
+                            "Done"
                         ]}
                     />
                     <Accordian

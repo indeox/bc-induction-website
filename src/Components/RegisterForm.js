@@ -50,8 +50,7 @@ class Input extends Component {
         		<Redirect to="/BCDigital"/>
       		);
      	}
-     	else if (this.state.value !== 'BC_DIG_LOND' && 
-  			this.state.submitted) {
+     	else if (this.state.value !== 'BC_DIG_LOND' && this.state.submitted) {
      		alert(this.state.value + ' is not a correct British Council induction code. Please try again.');
      		this.state.submitted.setState(false);
      	}
