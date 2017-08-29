@@ -58,7 +58,7 @@ export default class OurBehaviours extends Component {
                             E,
                             F
                         ]}
-            		    tabHeight={"875px"}
+            		    tabHeight={"792px"}
                     />
                     <Footer />
                 </Parallax>

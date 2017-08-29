@@ -33,7 +33,7 @@ export default class OurBehaviours extends Component {
           <br/><br/>
           <h1
             className="sbu-above-header"
-            style={{ margin: "150px 100px 10px 100px" }}
+            style={{ margin: "110px 100px 10px 100px" }}
           >
             Strategic Business Units within the British Council
           </h1>
