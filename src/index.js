@@ -6,6 +6,7 @@ import { HashRouter } from 'react-router-dom';
 import App from './Pages/App.js';
 // CSS
 import './index.css';
+import './CSS/intro-table.css';
 import './CSS/bootstrap-3.3.7-dist/css/bootstrap.css';
 import './CSS/bootstrap-3.3.7-dist/css/bootstrap.min.css';
 
