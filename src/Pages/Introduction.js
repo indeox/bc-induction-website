@@ -13,7 +13,7 @@ export default class Introduction extends Component {
 
   	render() {
     	return (
-    		<Parallax pages={1.59}>
+    		<Parallax pages={1.65}>
     			<ProgressBar 
     				continueLink={"#/History"}
 					currentIndex={0}
@@ -32,11 +32,14 @@ export default class Introduction extends Component {
 	      		
 	      		<div className="container-fluid bg-2 text-center">
 				  	<h3 style={{fontSize: "35pt"}} className="margin">Welcome to the British Council Induction Journey</h3>
-				  	<p style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}>This process will give you 
+				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>This process will give you 
 				  	an overview of the information you will need to integrate into your new workplace.</p>
-				  	<p style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}>We'll start with an overview 
+				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>We'll start with an overview 
 				  	of the History of the British Council, starting from our creation in 1934, to the current prjects we're
-				  	 working on.</p>
+				  	 working on. We'll then give you an overview of the values and behaviours of our organisation, which
+				  	 you'll probably have an idea of already. Moving on, we'll give you a better idea of how we work globally, 
+				  	 and how the Strategic Business Units link together. Finally, we'll give you details about the team you'll
+				  	 be working with in the near future.</p>
 				</div>
 
 				<div className="columns">
