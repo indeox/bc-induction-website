@@ -5,6 +5,7 @@ import Footer from "../Components/Footer.js";
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";
+import ScrollArrow from "../Components/ScrollArrow.js";
 
 import bgPic1 from "../Images/China_00002.jpg";
 import bgPic2 from "../Images/UCL_218_.jpg";
@@ -17,7 +18,7 @@ export default class OurBehaviours extends Component {
         <Parallax ref="parallax" pages={3.2}>
           <h1
             className="sbu-above-header"
-            style={{ margin: "100px 100px 10px 100px" }}
+            style={{ margin: "150px 100px 10px 100px" }}
           >
             Strategic Business Units within the British Council
           </h1>
@@ -25,7 +26,7 @@ export default class OurBehaviours extends Component {
             className="sbu-above-descrip"
             style={{ fontSize: 18, margin: "0px 100px 50px 100px" }}
           >
-            The British Council revolves around three smaller business units
+            The British Council revolves around three Strategic Business Units
             known as SBUs. The work completed in these units form the foundation
             of the company.
           </div>
@@ -52,7 +53,7 @@ export default class OurBehaviours extends Component {
               "The arts department is separated by art form. Each art form carries out work in its field to help achieve arts’ aim of building connections. For example, the film team has recently screened ‘five films for freedom’ by Syrian filmmakers about their experiences. "
             }
             rightPageContent={<PinnedMap 
-              mapMaxWidth={1440} 
+              mapMaxWidth={1330} 
               pinHeaders={["1", "2", "3", "4", "5", "6", "7"]}
               pinImages={[bgPic1,
                bgPic1, 
@@ -80,7 +81,7 @@ export default class OurBehaviours extends Component {
               "The HSBC / British Council Schools Programme involves a range of collaborative activities to promote the teaching of Mandarin and Chinese culture in UK schools and to enhance UK school partnerships with China."
             }
             rightPageContent={<PinnedMap 
-              mapMaxWidth={1440} 
+              mapMaxWidth={1330} 
               pinHeaders={["1", "2", "3", "4", "5", "6", "7"]}
               pinImages={[bgPic2,
                bgPic2, 
@@ -92,8 +93,8 @@ export default class OurBehaviours extends Component {
                pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
-               pinTopCoords = {["15%", "25%", "35%", "45%", "55%", "65%", "75%"]}
-               pinLeftCoords = {["75%", "65%", "55%", "45%", "35%", "25%", "15%"]}
+               pinTopCoords = {["70%", "31%", "48%", "65%", "44%","25%", "75%"]}
+               pinLeftCoords = {["30%", "46.5%", "48%", "54%","68%", "75%", "83%"]}
               />}
           />
           <TwoPageTransition
@@ -109,7 +110,7 @@ export default class OurBehaviours extends Component {
             }
             rightPageContent={
               <PinnedMap 
-              mapMaxWidth={1440} 
+              mapMaxWidth={1330} 
               pinHeaders={["1", "2", "3", "4", "5", "6", "7"]}
               pinImages={[bgPic3,
                bgPic3, 
@@ -121,8 +122,8 @@ export default class OurBehaviours extends Component {
                pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
-               pinTopCoords = {["15%", "25%", "35%", "45%", "55%", "65%", "75%"]}
-               pinLeftCoords = {["75%", "65%", "55%", "45%", "35%", "25%", "15%"]}
+               pinTopCoords = {["70%", "31%", "48%", "65%", "44%","25%", "75%"]}
+               pinLeftCoords = {["30%", "46.5%", "48%", "54%","68%", "75%", "83%"]}
               />}
           />
           <h1

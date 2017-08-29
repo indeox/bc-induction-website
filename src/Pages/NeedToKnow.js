@@ -69,7 +69,7 @@ export default class NeedToKnow extends Component {
 				        				<div className="polaroid">
 				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion' target="_blank" rel="noopener noreferrer">
 					        					<img src={edi} alt='#' width='100%' />
-					        					<div id='container'>EDI Information</div>
+					        					<div id='container'> <abbr title="Equality, Diversity, and Inclusion">EDI</abbr> Information</div>
 					        				</a>
 				        				</div>
 				        			</div>

@@ -16,7 +16,7 @@ export default class OurValues extends Component {
     render() {
         return (
             <div>
-                <Parallax pages={1.3}>
+                <Parallax pages={1}>
                     <ProgressBar
                       continueLink={"#/OurBehaviours"}
                       currentIndex={1}
@@ -45,7 +45,7 @@ export default class OurValues extends Component {
                             D,
                             E
                         ]}
-            		    tabHeight={"1000px"}
+            		    tabHeight={"875px"}
                     />
                     <Footer />
                 </Parallax>

@@ -41,7 +41,14 @@ export default class TwoPageTransition extends Component {
                 <p>
                   {this.props.leftPageContent2}
                 </p>
-                <SwipeButton title="See Map" clickAction={this.onSBUClick()} />
+                <SwipeButton
+                  title="See Map"
+                  clickAction={this.onSBUClick()}
+                  bHeight={"70px"}
+                  bWidth={"200px"}
+                  bLeft={"-41%"}
+                  bFontSize={"18pt"}
+                />
               </div>
             </div>
             <div
@@ -54,6 +61,10 @@ export default class TwoPageTransition extends Component {
               <SwipeButton
                 title="Back to Info"
                 clickAction={this.onSBUClick()}
+                bHeight={"50px"}
+                bWidth={"170px"}
+                bLeft={"0%"}
+                bFontSize={"14pt"}
               />
             </div>
           </div>

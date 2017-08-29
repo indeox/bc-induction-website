@@ -40,14 +40,14 @@ function generateTabs(tabLabels, tabDescriptions, tabBackgrounds, tabHeight) {
         }}
       >
         <div>
-          <a href="." style={{ height: tabHeight }}>
+          <div className="acc-content" style={{ height: tabHeight }}>
             <h2>
               {tabLabels[index]}
             </h2>
             <p>
               {tabDescriptions[index]}
             </p>
-          </a>
+          </div>
         </div>
       </li>
     );

@@ -5,9 +5,9 @@
 import React from "react";
 import "../CSS/swipe-button.css";
 
-const SwipeButton = ({ title, clickAction, currentIndex, className = "" }) => {
+const SwipeButton = ({ title, clickAction, bHeight, bWidth, bLeft, bFontSize, className = "" }) => {
   return (
-    <button className="button" onClick={clickAction} tabIndex="1">
+    <button className="button" style={{height: bHeight, width: bWidth, left: bLeft, fontSize: bFontSize}} onClick={clickAction} tabIndex="1">
       {title}
     </button>
   ); //end of return

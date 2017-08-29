@@ -54,6 +54,12 @@
   width: 100vw;
   height: 1000px;
   background-image: url('Images/UCL_188_.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #fff;
 }
 

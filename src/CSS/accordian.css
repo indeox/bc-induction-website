@@ -1,5 +1,6 @@
 /*WILL CHANGE FONT LATER:*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /*******************
 * for accordian tabs
@@ -55,7 +56,7 @@
   width: 100%;
 }
 
-.accordian .acc-list .acc-list-item div a {
+.accordian .acc-list .acc-list-item div .acc-content {
   display: block;
   width: 100%;
   position: relative;
@@ -65,11 +66,11 @@
   box-sizing: border-box;
   color: #fff;
   text-decoration: none;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: all 200ms ease;
 }
 
-.accordian .acc-list .acc-list-item div a * {
+.accordian .acc-list .acc-list-item div .acc-content * {
   opacity: 0;
   margin: 0;
   width: 100%;
@@ -84,7 +85,7 @@
   transition: all 400ms ease;
 }
 
-.accordian .acc-list .acc-list-item div a h2 {
+.accordian .acc-list .acc-list-item div .acc-content h2 {
   font-family: Montserrat, sans-serif;
   text-overflow: clip;
   font-size: 5em;
@@ -94,7 +95,7 @@
   top: 70%;
 }
 
-.accordian .acc-list .acc-list-item div a p {
+.accordian .acc-list .acc-list-item div .acc-content p {
   top: 70%; /*same as h2*/
   font-size: 25px;
   color: lightgray;
@@ -111,11 +112,11 @@
   width: 60%;
 }
 
-#size-5 .acc-list:hover .acc-list-item:hover a {
+#size-5 .acc-list:hover .acc-list-item:hover .acc-content {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#size-5 .acc-list:hover .acc-list-item:hover a * {
+#size-5 .acc-list:hover .acc-list-item:hover .acc-content * {
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -128,11 +129,11 @@
   width: 60%;
 }
 
-#size-6 .acc-list:hover .acc-list-item:hover a {
+#size-6 .acc-list:hover .acc-list-item:hover .acc-content {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#size-6 .acc-list:hover .acc-list-item:hover a * {
+#size-6 .acc-list:hover .acc-list-item:hover .acc-content * {
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);

@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 
 import ProgressBar from '../Components/ProgressBar';
 import Footer from "../Components/Footer.js";
+import ScrollArrow from "../Components/ScrollArrow.js";
+import scrollArrowImage from "../Images/green-arrow.png";
 
 export default class QuizPage extends Component {
 
@@ -58,6 +60,7 @@ export default class QuizPage extends Component {
 						    	falls in living standards, and high and persistent unemployment.
 						  	</div>
 						</div>
+						<ScrollArrow/>
 				    </Parallax.Layer>
 				    {/* Page 2 */}
 				    <Parallax.Layer offset={0.99} speed={0.4} onClick={() => this.refs.parallax.scrollTo(1.27)} >

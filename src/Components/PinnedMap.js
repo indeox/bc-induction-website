@@ -17,6 +17,7 @@ const PinnedMap = ({
 }) => {
   return (
     <div className="map" style={{ maxWidth: mapMaxWidth + "px" }}>
+      <h3> Click the pins to check out some of the things we are doing in that region: </h3>
       {generatePins(
         pinHeaders,
         pinImages,
