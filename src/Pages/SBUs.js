@@ -16,6 +16,21 @@ export default class OurBehaviours extends Component {
     return (
       <div>
         <Parallax ref="parallax" pages={3.2}>
+          <ProgressBar
+            continueLink={"#/NeedToKnow"}
+            currentIndex={4}
+            stepLabels={[
+              "Introduction",
+              "Our History",
+              "Our Values",
+              "Our Behaviours",
+              "Our SBU's",
+              "Key Information",
+              "Meet your Team",
+              "Done"
+            ]}
+          />
+          <br/><br/>
           <h1
             className="sbu-above-header"
             style={{ margin: "150px 100px 10px 100px" }}
@@ -30,17 +45,6 @@ export default class OurBehaviours extends Component {
             known as SBUs. The work completed in these units form the foundation
             of the company.
           </div>
-          <ProgressBar
-            continueLink={"#/NeedToKnow"}
-            currentIndex={3}
-            stepLabels={[
-              "Our History",
-              "Our Values",
-              "Our Behaviours",
-              "Our SBU's",
-              "Key Information"
-            ]}
-          />
           <TwoPageTransition
             bgPicURL={bgPic1}
             leftPageHeader={"About the Arts SBU"}

@@ -13,18 +13,20 @@ export default class About extends Component {
 				<Parallax ref='parallax' pages={1}>
 						<ProgressBar 
 							continueLink={"#/Completion"}
-							currentIndex={5}
+							currentIndex={6}
 		          			stepLabels={[
+		          				"Introduction",
 					            "Our History",
 					            "Our Values",
 					            "Our Behaviours",
 					            "Our SBU's",
 					            "Key Information",
-					            "Finish Up"
+					            "Meet your Team",
+					            "Done"
 		          			]}
 		          			test={false}
 		          		/>
-		          		<br/><br/>
+		          		<br/><br/><br/>
 		          		<RegisterForm 
 		          			appState={this.props.appState}
 		          			setFormState={this.props.setFormState}

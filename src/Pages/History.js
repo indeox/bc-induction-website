@@ -15,16 +15,20 @@ export default class QuizPage extends Component {
 				<Parallax ref='parallax' pages={11.76}>
 					<ProgressBar 
 						continueLink={"#/OurValues"}
-						currentIndex={0}
+						currentIndex={1}
 	          			stepLabels={[
+				            "Introduction",
 				            "Our History",
 				            "Our Values",
 				            "Our Behaviours",
 				            "Our SBU's",
-				            "Key Information"
+				            "Key Information",
+				            "Meet your Team",
+				            "Done"
 	          			]}
+	          			test={false}
 	          		/>
-	          		<br/><br/><br/>
+	          		<br/><br/><br/><br/><br/>
 
 					<Parallax.Layer offset={0} speed={1} style={{ backgroundColor: 'black' }} />
 					<Parallax.Layer offset={0.5} speed={1} style={{ backgroundColor: 'black' }} />

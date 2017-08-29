@@ -18,17 +18,19 @@ export default class NeedToKnow extends Component {
 					<div className="container">
 						<ProgressBar 
 							continueLink={"#/Completion"}
-							currentIndex={4}
+							currentIndex={5}
 		          			stepLabels={[
-					            "Our History",
-					            "Our Values",
-					            "Our Behaviours",
-					            "Our SBU's",
-					            "Key Information",
-					            "Finish Up"
+					            "Introduction",
+		                        "Our History",
+		                        "Our Values",
+		                        "Our Behaviours",
+		                        "Our SBU's",
+		                        "Key Information",
+		                        "Meet your Team",
+		                        "Done"
 		          			]}
 	          			/>
-	          			<br /><br /><br /><br /><br /><br />
+	          			<br/><br/><br/><br/><br/><br/><br/>
 				        <header className="jumbotron hero-spacer">
 				            <h2>Some need to know information</h2>
 				            <hr></hr>

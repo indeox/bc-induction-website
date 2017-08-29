@@ -20,13 +20,20 @@ export default class BCDigital extends Component {
   	render() {
     	return (
     		<Parallax ref='parallax' pages={3.195}>
-				<ProgressBar 
-					currentIndex={5}
-	      			stepLabels={[
-			            "Your personal journey now begins"
-	      			]}
-	      			test={false}
-	      		/>
+				  <ProgressBar 
+            continueLink={"#/Done"}
+					  currentIndex={6}
+            stepLabels={[
+	      			"Introduction",
+              "Our History",
+              "Our Values",
+              "Our Behaviours",
+              "Our SBU's",
+              "Key Information",
+              "Meet your Team",
+              "Done"
+            ]}
+	      	/>
 	      		<br/><br/><br/>
 
 				<div className="container-fluid bg-2 text-center">
