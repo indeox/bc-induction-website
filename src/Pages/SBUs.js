@@ -19,14 +19,14 @@ export default class OurBehaviours extends Component {
             continueLink={"#/NeedToKnow"}
             currentIndex={4}
             stepLabels={[
-              "Introduction",
-              "Our History",
-              "Our Values",
-              "Our Behaviours",
-              "Our SBU's",
-              "Key Information",
-              "Meet your Team",
-              "Done"
+              <a href='#/Introduction'>Introduction</a>,
+              <a href='#/History'>Our History</a>,
+              <a href='#/OurValues'>Our Values</a>,
+              <a href='#/OurBehaviours'>Our Behaviours</a>,
+              <a href='#/SBUs'>Our SBU's</a>,
+              <a href='#/NeedToKnow'>Key Information</a>,
+              <a href='#/Completion'>Meet your Team</a>,
+              <a href='#/Done'>Finish Up</a>
             ]}
           />
           <br/><br/>

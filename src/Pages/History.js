@@ -16,14 +16,14 @@ export default class QuizPage extends Component {
 						continueLink={"#/OurValues"}
 						currentIndex={1}
 	          			stepLabels={[
-				            "Introduction",
-				            "Our History",
-				            "Our Values",
-				            "Our Behaviours",
-				            "Our SBU's",
-				            "Key Information",
-				            "Meet your Team",
-				            "Done"
+				            <a href='#/Introduction'>Introduction</a>,
+				            <a href='#/History'>Our History</a>,
+				            <a href='#/OurValues'>Our Values</a>,
+				            <a href='#/OurBehaviours'>Our Behaviours</a>,
+				            <a href='#/SBUs'>Our SBU's</a>,
+				            <a href='#/NeedToKnow'>Key Information</a>,
+				            <a href='#/Completion'>Meet your Team</a>,
+				            <a href='#/Done'>Finish Up</a>
 	          			]}
 	          			test={false}
 	          		/>
