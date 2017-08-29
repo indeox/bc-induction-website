@@ -5,7 +5,6 @@ import Footer from "../Components/Footer.js";
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";
-import ScrollArrow from "../Components/ScrollArrow.js";
 
 import bgPic1 from "../Images/China_00002.jpg";
 import bgPic2 from "../Images/UCL_218_.jpg";
@@ -20,14 +19,14 @@ export default class OurBehaviours extends Component {
             continueLink={"#/NeedToKnow"}
             currentIndex={4}
             stepLabels={[
-              "Introduction",
-              "Our History",
-              "Our Values",
-              "Our Behaviours",
-              "Our SBU's",
+              <a href='#/Introduction'>Introduction</a>,
+              <a href='#/History'>Our History</a>,
+              <a href='#/OurValues'>Our Values</a>,
+              <a href='#/OurBehaviours'>Our Behaviours</a>,
+              <a href='#/SBUs'>Our SBU's</a>,
               "Key Information",
               "Meet your Team",
-              "Done"
+              "Finish Up"
             ]}
           />
           <br/><br/>

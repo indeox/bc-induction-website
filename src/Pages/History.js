@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import ProgressBar from '../Components/ProgressBar';
 import Footer from "../Components/Footer.js";
 import ScrollArrow from "../Components/ScrollArrow.js";
-import scrollArrowImage from "../Images/green-arrow.png";
 
 export default class QuizPage extends Component {
 
@@ -17,14 +16,14 @@ export default class QuizPage extends Component {
 						continueLink={"#/OurValues"}
 						currentIndex={1}
 	          			stepLabels={[
-				            "Introduction",
-				            "Our History",
+				            <a href='#/Introduction'>Introduction</a>,
+				            <a href='#/History'>Our History</a>,
 				            "Our Values",
 				            "Our Behaviours",
 				            "Our SBU's",
 				            "Key Information",
 				            "Meet your Team",
-				            "Done"
+				            "Finish Up"
 	          			]}
 	          			test={false}
 	          		/>

@@ -21,14 +21,14 @@ export default class OurBehaviours extends Component {
                         continueLink={"#/SBUs"}
                         currentIndex={3}
                         stepLabels={[
-                            "Introduction",
-                            "Our History",
-                            "Our Values",
-                            "Our Behaviours",
+                            <a href='#/Introduction'>Introduction</a>,
+                            <a href='#/History'>Our History</a>,
+                            <a href='#/OurValues'>Our Values</a>,
+                            <a href='#/OurBehaviours'>Our Behaviours</a>,
                             "Our SBU's",
                             "Key Information",
                             "Meet your Team",
-                            "Done"
+                            "Finish Up"
                         ]}
                     />
                     <Accordian

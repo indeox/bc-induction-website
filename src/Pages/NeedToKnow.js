@@ -20,22 +20,22 @@ export default class NeedToKnow extends Component {
 							continueLink={"#/Completion"}
 							currentIndex={5}
 		          			stepLabels={[
-					            "Introduction",
-		                        "Our History",
-		                        "Our Values",
-		                        "Our Behaviours",
-		                        "Our SBU's",
-		                        "Key Information",
-		                        "Meet your Team",
-		                        "Done"
+					            <a href='#/Introduction'>Introduction</a>,
+					            <a href='#/History'>Our History</a>,
+					            <a href='#/OurValues'>Our Values</a>,
+					            <a href='#/OurBehaviours'>Our Behaviours</a>,
+					            <a href='#/SBUs'>Our SBU's</a>,
+					            <a href='#/NeedToKnow'>Key Information</a>,
+					            "Meet your Team",
+					            "Finish Up"
 		          			]}
 	          			/>
 	          			<br/><br/><br/><br/><br/><br/><br/>
 				        <header className="jumbotron hero-spacer">
-				            <h2>Some need to know information</h2>
+				            <h2>Some Need to Know Information <span className="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h2>
 				            <hr></hr>
 				            <p>Here you'll find all the necessary resources you need to quickly integrate into 
-				            the British Council</p>
+				            the British Council.</p>
 				        </header>
 				    </div>
 					
