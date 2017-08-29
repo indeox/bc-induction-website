@@ -9,7 +9,7 @@ export default class Done extends Component {
 
   	render() {
     	return (
-    		<Parallax>
+    		<Parallax pages={1}>
     			<ProgressBar 
 					currentIndex={7}
 	      			stepLabels={[
@@ -34,8 +34,8 @@ export default class Done extends Component {
 				  	<p style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}>If you need to refer 
 				  	back to any points feel free to scroll back through the induction or refer to your induction
 				  	passport.</p>
-				  	<h3 style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}><u>Have a great first day
-				  	and we look forward to meeting you!</u></h3>
+				  	<h3 style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}><b>Have a great first day
+				  	and we look forward to meeting you!</b></h3>
 				</div>
 				<Footer />
     		</Parallax>
