@@ -24,9 +24,9 @@ export default class OurBehaviours extends Component {
               <a href='#/OurValues'>Our Values</a>,
               <a href='#/OurBehaviours'>Our Behaviours</a>,
               <a href='#/SBUs'>Our SBU's</a>,
-              <a href='#/NeedToKnow'>Key Information</a>,
-              <a href='#/Completion'>Meet your Team</a>,
-              <a href='#/Done'>Finish Up</a>
+              "Key Information",
+              "Meet your Team",
+              "Finish Up"
             ]}
           />
           <br/><br/>

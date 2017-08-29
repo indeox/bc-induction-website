@@ -32,8 +32,8 @@ export default class Done extends Component {
 				  	<p style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}>You should now have a 
 				  	good overview of our organisation to begin your first steps with us.</p>
 				  	<p style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}>If you need to refer 
-				  	back to any points feel free to scroll back through the induction or refer to your induction
-				  	passport.</p>
+				  	back to any points feel free to scroll back through the induction using the navigation bar
+				  	or refer to your induction passport.</p>
 				  	<h3 style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}><b>Have a great first day
 				  	and we look forward to meeting you!</b></h3>
 				</div>

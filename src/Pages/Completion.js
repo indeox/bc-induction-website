@@ -22,7 +22,7 @@ export default class About extends Component {
 					            <a href='#/SBUs'>Our SBU's</a>,
 					            <a href='#/NeedToKnow'>Key Information</a>,
 					            <a href='#/Completion'>Meet your Team</a>,
-					            <a href='#/Done'>Finish Up</a>
+					            "Finish Up"
 		          			]}
 		          			test={false}
 		          		/>

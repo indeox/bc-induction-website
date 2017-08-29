@@ -26,8 +26,8 @@ export default class NeedToKnow extends Component {
 					            <a href='#/OurBehaviours'>Our Behaviours</a>,
 					            <a href='#/SBUs'>Our SBU's</a>,
 					            <a href='#/NeedToKnow'>Key Information</a>,
-					            <a href='#/Completion'>Meet your Team</a>,
-					            <a href='#/Done'>Finish Up</a>
+					            "Meet your Team",
+					            "Finish Up"
 		          			]}
 	          			/>
 	          			<br/><br/><br/><br/><br/><br/><br/>
