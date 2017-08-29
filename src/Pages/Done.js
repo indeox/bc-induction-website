@@ -27,7 +27,7 @@ export default class Done extends Component {
 	      		<br/><br/><br/><br/>
 	      		
 	      		<div className="container-fluid bg-2 text-center">
-				  	<h3 style={{fontSize: "35pt"}} className="margin">Congratulations! You have now completed your 
+				  	<h3 style={{fontSize: "35pt"}} className="margin">Congratulations! You have completed your 
 				  	British Council Induction...</h3>
 				  	<p style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}>You should now have a 
 				  	good overview of our organisation to begin your first steps with us.</p>

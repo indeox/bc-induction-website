@@ -32,10 +32,10 @@ export default class NeedToKnow extends Component {
 	          			/>
 	          			<br/><br/><br/><br/><br/><br/><br/>
 				        <header className="jumbotron hero-spacer">
-				            <h2>Some need to know information</h2>
+				            <h2>Some Need to Know Information <span className="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h2>
 				            <hr></hr>
 				            <p>Here you'll find all the necessary resources you need to quickly integrate into 
-				            the British Council</p>
+				            the British Council.</p>
 				        </header>
 				    </div>
 					
