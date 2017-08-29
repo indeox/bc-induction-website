@@ -43,7 +43,7 @@ export default class Introduction extends Component {
 					<ul className="price">
 					    <li className="header">History</li>
 					    <li className="grey">Learn about our history, from our origin, to today</li>
-					    <img className="img-responsive" src={history} style={{height: "200px"}}/>
+					    <img className="img-responsive" src={history} style={{height: "200px"}} alt='.' />
 					    <li className="grey"></li>
 					</ul>
 				</div>
@@ -52,7 +52,7 @@ export default class Introduction extends Component {
 				  	<ul className="price">
 					    <li className="header" style={{backgroundColor:"#4CAF50"}}>Values and Behaviours</li>
 					    <li className="grey">Learn about the values you'll need to quickly fit in</li>
-					    <img className="img-responsive" src={ghana} />
+					    <img className="img-responsive" src={ghana} alt='.' />
 					    <li className="grey"></li>
 				  	</ul>
 				</div>
@@ -61,7 +61,7 @@ export default class Introduction extends Component {
 				  	<ul className="price">
 					    <li className="header">SBU's</li>
 					    <li className="grey">Our Strategic Business Units (SBU's) current work</li>
-					    <img className="img-responsive" src={SBU} />
+					    <img className="img-responsive" src={SBU} alt='.' />
 					    <li className="grey"></li>
 					</ul>
 				</div>
@@ -70,10 +70,11 @@ export default class Introduction extends Component {
 				  	<ul className="price">
 					    <li className="header" style={{backgroundColor:"#4CAF50"}}>Meet the Team</li>
 					    <li className="grey">Learn information about your new team</li>
-					    <img className="img-responsive" src={team} />
+					    <img className="img-responsive" src={team} alt='.' />
 					    <li className="grey"></li>
 				  	</ul>
 				</div>
+				<Footer />
     		</Parallax>
     	);
     }

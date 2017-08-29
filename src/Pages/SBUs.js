@@ -5,7 +5,6 @@ import Footer from "../Components/Footer.js";
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";
-import ScrollArrow from "../Components/ScrollArrow.js";
 
 import bgPic1 from "../Images/China_00002.jpg";
 import bgPic2 from "../Images/UCL_218_.jpg";

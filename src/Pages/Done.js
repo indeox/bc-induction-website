@@ -37,7 +37,7 @@ export default class Done extends Component {
 				  	<h3 style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}><u>Have a great first day
 				  	and we look forward to meeting you!</u></h3>
 				</div>
-
+				<Footer />
     		</Parallax>
     	);
     }

@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import ProgressBar from '../Components/ProgressBar';
 import Footer from "../Components/Footer.js";
 import ScrollArrow from "../Components/ScrollArrow.js";
-import scrollArrowImage from "../Images/green-arrow.png";
 
 export default class QuizPage extends Component {
 
