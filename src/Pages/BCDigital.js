@@ -180,13 +180,13 @@ export default class BCDigital extends Component {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="col-md-4">
-								<img src={classroom} className="img-responsive" alt="#" class="rounded-top" />
+								<img src={classroom} className="img-responsive" alt="#" className="rounded-top" style={{height: "325px"}} />
 							</div>
 							<div className="col-md-4">
-								<img src={mutual} className="img-responsive" alt="#" class="rounded-top" />
+								<img src={mutual} className="img-responsive" alt="#" className="rounded-top" />
 							</div>
 							<div className="col-md-4">
-								<img src={ghana} className="img-responsive" alt="#" class="rounded-top" />
+								<img src={ghana} className="img-responsive" alt="#" className="rounded-top" />
 							</div>
 						</div>
 					</div>
