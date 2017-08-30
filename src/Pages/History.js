@@ -16,8 +16,8 @@ export default class QuizPage extends Component {
 						continueLink={"#/OurValues"}
 						currentIndex={1}
 	          			stepLabels={[
-				            <a href='#/Introduction'>Introduction</a>,
-				            <a href='#/History'>Our History</a>,
+				            <a href='#/Introduction' style={{color: 'white'}}>Introduction</a>,
+				            <a href='#/History' style={{color: 'white'}}>Our History</a>,
 				            "Our Values",
 				            "Our Behaviours",
 				            "Our SBU's",

@@ -13,14 +13,14 @@ export default class Done extends Component {
     			<ProgressBar 
 					currentIndex={7}
 	      			stepLabels={[
-	      				<a href='#/Introduction'>Introduction</a>,
-			            <a href='#/History'>Our History</a>,
-			            <a href='#/OurValues'>Our Values</a>,
-			            <a href='#/OurBehaviours'>Our Behaviours</a>,
-			            <a href='#/SBUs'>Our SBU's</a>,
-			            <a href='#/NeedToKnow'>Key Information</a>,
-			            <a href='#/Completion'>Meet your Team</a>,
-			            <a href='#/Done'>Finish Up</a>
+	      				<a href='#/Introduction' style={{color: 'white'}}>Introduction</a>,
+			            <a href='#/History' style={{color: 'white'}}>Our History</a>,
+			            <a href='#/OurValues' style={{color: 'white'}}>Our Values</a>,
+			            <a href='#/OurBehaviours' style={{color: 'white'}}>Our Behaviours</a>,
+			            <a href='#/SBUs' style={{color: 'white'}}>Our SBU's</a>,
+			            <a href='#/NeedToKnow' style={{color: 'white'}}>Key Information</a>,
+			            <a href='#/Completion' style={{color: 'white'}}>Meet your Team</a>,
+			            <a href='#/Done' style={{color: 'white'}}>Finish Up</a>
           			]}
           			test={false}
 	      		/>

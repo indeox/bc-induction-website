@@ -21,9 +21,9 @@ export default class OurValues extends Component {
                       continueLink={"#/OurBehaviours"}
                       currentIndex={2}
                       stepLabels={[
-                        <a href='#/Introduction'>Introduction</a>,
-                        <a href='#/History'>Our History</a>,
-                        <a href='#/OurValues'>Our Values</a>,
+                        <a href='#/Introduction' style={{color: 'white'}}>Introduction</a>,
+                        <a href='#/History' style={{color: 'white'}}>Our History</a>,
+                        <a href='#/OurValues' style={{color: 'white'}}>Our Values</a>,
                         "Our Behaviours",
                         "Our SBU's",
                         "Key Information",

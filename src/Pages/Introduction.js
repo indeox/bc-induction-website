@@ -18,7 +18,7 @@ export default class Introduction extends Component {
     				continueLink={"#/History"}
 					currentIndex={0}
 	      			stepLabels={[
-	      				<a href='#/Introduction'>Introduction</a>,
+	      				<a href='#/Introduction' style={{color: 'white'}}>Introduction</a>,
 			            "Our History",
 			            "Our Values",
 			            "Our Behaviours",
