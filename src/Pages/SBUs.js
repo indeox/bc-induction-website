@@ -5,11 +5,11 @@ import Footer from "../Components/Footer.js";
 import ProgressBar from "../Components/ProgressBar.js";
 import PinnedMap from "../Components/PinnedMap.js";
 import TwoPageTransition from "../Components/TwoPageTransition.js";
-// Images
+// SBU Images
 import bgPic1 from "../Images/China_00002.jpg";
 import bgPic2 from "../Images/UCL_218_.jpg";
 import bgPic3 from "../Images/Ghana_00757.jpg";
-
+// Map Images
 import artsAmerica from '../Images/SBUImages/artsAmerica.png';
 import artsEAsia from '../Images/SBUImages/artsEAsia.png';
 import artsWEurope from '../Images/SBUImages/artsWEurope.png';
@@ -163,13 +163,15 @@ export default class OurBehaviours extends Component {
                 "Wider Europe", 
                 "East Asia"
               ]}
-              pinImages={[bgPic2,
-               bgPic2, 
-               bgPic2, 
-               bgPic2, 
-               bgPic2, 
-               bgPic2, 
-               bgPic2]}
+              pinImages={[
+               artsAmerica,
+               artsUK, 
+               artsNAfrica, 
+               artsAfrica, 
+               artsSAsia, 
+               artsWEurope, 
+               artsEAsia
+              ]}
                pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
@@ -200,13 +202,15 @@ export default class OurBehaviours extends Component {
                 "Wider Europe", 
                 "East Asia"
               ]}
-              pinImages={[bgPic3,
-               bgPic3, 
-               bgPic3, 
-               bgPic3, 
-               bgPic3, 
-               bgPic3, 
-               bgPic3]}
+              pinImages={[
+                artsAmerica,
+                artsUK, 
+                artsNAfrica, 
+                artsAfrica, 
+                artsSAsia, 
+                artsWEurope, 
+                artsEAsia 
+              ]}   
                pinContents1 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents2 = {["1", "2", "3", "4", "5", "6", "7"]}
                pinContents3 = {["1", "2", "3", "4", "5", "6", "7"]}
