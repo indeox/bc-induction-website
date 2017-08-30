@@ -31,7 +31,7 @@ export default class Introduction extends Component {
 	      		<br/><br/><br/><br/><br/>
 	      		
 	      		<div className="container-fluid bg-2 text-center">
-				  	<h3 style={{fontSize: "35pt"}} className="margin">Welcome to the British Council Induction Journey</h3>
+				  	<h3 style={{fontSize: "35pt"}} className="margin">Welcome to Your British Council Induction Journey</h3>
 				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>This process will give you 
 				  	an overview of the information you will need to integrate into your new workplace.</p>
 				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>We'll start with an overview 
