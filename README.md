@@ -20,11 +20,15 @@ git clone git@github.com:chrismphilp/bc-induction-website.git
 ```
 2) Then, change or `cd` into the cloned directory
 
+```
+cd bc-induction-website
+```
+
 3) Run the below command on the root of the directory 
 ```
 npm install
 ```
-4) Then run
+4) Finally run this command
 ```
 npm start
 ```
@@ -39,6 +43,10 @@ This is a prototype of a potential British Council Induction program, and not a 
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request!
 
+## Built With
+
+* [react-router](https://reacttraining.com/react-router/) - Used to make the prototype a single-page application
+* [react-springy-parallax](http://react-springy-parallax.surge.sh/) - Used to create the parallax scrolling effect
 
 ## Authors
 
