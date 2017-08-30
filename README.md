@@ -1,6 +1,6 @@
 # The British Council Induction
 
-The main aim of this webpage is to give an overview of the British Council, and is not to provide you with all information that you will need for your new job. 
+The main aim of this prototype is to give ideas for an implementation of a British Council Induction, and is not to provide a full working product. 
 
 ## Getting Started
 
