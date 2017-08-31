@@ -30,7 +30,7 @@ export default class NeedToKnow extends Component {
 					            "Finish Up"
 		          			]}
 	          			/>
-	          			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	          			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 				        <header className="jumbotron hero-spacer">
 				            <h2>Some Need to Know Information <span className="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h2>
 				            <hr></hr>

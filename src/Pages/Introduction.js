@@ -13,7 +13,7 @@ export default class Introduction extends Component {
 
   	render() {
     	return (
-    		<Parallax pages={1.35}>
+    		<Parallax pages={1.25}>
     			<ProgressBar 
     				continueLink={"#/History"}
 					currentIndex={0}

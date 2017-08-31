@@ -48,7 +48,7 @@ export default class OurValues extends Component {
                             D,
                             E
                         ]}
-            		    tabHeight={"823px"} /*when tested in board room this was the right size*/
+            		    tabHeight={"868px"} /*when tested in board room this was the right size*/
                     />
                     <Footer />
                 </Parallax>

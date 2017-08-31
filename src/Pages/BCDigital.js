@@ -19,7 +19,7 @@ export default class BCDigital extends Component {
 
   	render() {
     	return (
-    		<Parallax ref='parallax' pages={2.75}>
+    		<Parallax ref='parallax' pages={2.55}>
 				  <ProgressBar 
             continueLink={"#/Done"}
 					  currentIndex={6}

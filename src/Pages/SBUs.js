@@ -22,7 +22,7 @@ export default class OurBehaviours extends Component {
   render() {
     return (
       <div>
-        <Parallax ref="parallax" pages={5}>
+        <Parallax ref="parallax" pages={3}>
           <ProgressBar
             continueLink={"#/NeedToKnow"}
             currentIndex={4}
@@ -232,6 +232,7 @@ export default class OurBehaviours extends Component {
             others team…?). (Note: Please just hyperlink to their relevant pages
             – we do have to mention them, it’s a little rude not to, especially
             as some people who join will actually be joining those teams).
+            <p>- <a href="https://www.britishcouncil.org/digital-advisory-group">Digital</a></p>
           </div>
           <Footer />
         </Parallax>

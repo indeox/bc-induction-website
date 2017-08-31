@@ -34,54 +34,54 @@ export default class OurBehaviours extends Component {
                     <Accordian
             		    //these are all a series of parallel arrays, as such the nth element of the Label, Description, and Background go together
                         tabLabels={[
-                            "Connecting with Others",
+                            "Connecting to Others",
                             "Shaping the Future",
                             "Making it Happen",
                             "Being accountable",
-                            "Creating Shared Purpose",
+                            "Shared Purpose",
                             "Working Together"
                         ]}
                         tabDescriptions={[
                             // Connecting
                             <ul>
-                                <li>- We find common ground and build relationships and connections to support<br/> British Council goals. </li>
-                                <li>- Building trust with others, by paying attention to their concerns and needs,<br/> and showing 
+                                <li>- We find common ground and build relationships and connections<br/> to support British Council goals. </li>
+                                <li>- Building trust with others, by paying attention to their concerns<br/> and needs, and showing 
                                 that we understand their interests.</li>
                                 <li>- We achieve understanding and trust in a culturally sensitive way.</li>
                             </ul>,
                             // Shaping
                             <ul>
-                                <li>- We achieve better business, innovation and growth by using our professionalism,<br/>
-                                knowledge and expertise to create a clear focus on what we want to achieve.</li>
-                                <li>- We spot opportunities, plan appropriately and create innovative solutions that <br/>
+                                <li>- We achieve better business, innovation and growth by using<br/> our professionalism,
+                                knowledge and expertise to<br/> create a clear focus on what we want to achieve.</li>
+                                <li>- We spot opportunities, plan appropriately and create innovative<br/> solutions that
                                 recognise ambiguity and deliver business benefit.</li>
                             </ul>,
                             // Making
                             <ul>
                                 <li>- We deliver excellent results and achieve challenging goals.</li>
-                                <li>- We do this by setting clear and demanding objectives to deliver what is required.</li>
-                                <li>- We stay focused on measurable outcomes, while building longer-term capability.</li>
+                                <li>- We do this by setting clear and demanding objectives to deliver<br/> what is required.</li>
+                                <li>- We stay focused on measurable outcomes, while building<br/> longer-term capability.</li>
                             </ul>,
                             // Accountable
                             <ul>
-                                <li>- We show accountability and commitment to the British Council and demonstrate resilience and 
+                                <li>- We show accountability and commitment to the British Council<br/> and demonstrate resilience and 
                                 determination.</li>
-                                <li>- We hold ourselves and others responsible for delivering goals in line with the shared purpose 
+                                <li>- We hold ourselves and others responsible for delivering goals<br/> in line with the shared purpose 
                                 of the British Council. </li>
                                 <li>- We give and accept constructive feedback to maximise our performance.</li>
                             </ul>,
                             // Shared Purpose
                             <ul>
-                                <li>- We gain the active support of other people so they are fully engaged and motivated to contribute.</li>
-                                <li>- We do this by communicating our purpose in a way that everyone can understand.</li>
-                                <li>- We help everyone understand the part they play, so that our aims are clear to all.</li>
+                                <li>- We gain the active support of other people so they are fully<br/> engaged and motivated to contribute.</li>
+                                <li>- We do this by communicating our purpose in a way that everyone<br/> can understand.</li>
+                                <li>- We help everyone understand the part they play, so that our aims<br/> are clear to all.</li>
                             </ul>,
                             // Working 
                             <ul>
-                                <li>- We know that we will achieve more with other people than we can do separately, by sharing goals and 
-                                resources to add more value, we work towards common goals with others.</li>
+                                <li>- We know that we will achieve more with other people than<br/> we can do separately, by sharing goals and 
+                                resources to add more value,<br/> we work towards common goals with others.</li>
                                 <li>- We do this by agreeing ways of sharing success.</li>
-                                <li>- We generate mutual support, shared benefits and promote interdependence.</li>
+                                <li>- We generate mutual support, shared benefits<br/> and promote interdependence.</li>
                             </ul>
                         ]}
                         // Use this for image conversion http://jpillora.com/base64-encoder
@@ -93,7 +93,7 @@ export default class OurBehaviours extends Component {
                             E,
                             F
                         ]}
-            		    tabHeight={"823px"} /*when tested in board room this was the right size*/
+            		    tabHeight={"868px"} /*when tested in board room this was the right size*/
                     />
                     <Footer />
                 </Parallax>
