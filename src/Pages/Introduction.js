@@ -13,7 +13,7 @@ export default class Introduction extends Component {
 
   	render() {
     	return (
-    		<Parallax pages={1.65}>
+    		<Parallax pages={1.35}>
     			<ProgressBar 
     				continueLink={"#/History"}
 					currentIndex={0}
@@ -31,7 +31,7 @@ export default class Introduction extends Component {
 	      		<br/><br/><br/><br/><br/>
 	      		
 	      		<div className="container-fluid bg-2 text-center">
-				  	<h3 style={{fontSize: "35pt"}} className="margin">Welcome to Your British Council Induction Journey</h3>
+				  	<h3 style={{fontSize: "35pt", textAlign: "justify"}} className="margin">&nbsp;&nbsp;Welcome to Your British Council Induction Journey</h3>
 				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>This process will give you 
 				  	an overview of the information you will need to integrate into your new workplace.</p>
 				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>We'll start with an overview 
@@ -40,6 +40,10 @@ export default class Introduction extends Component {
 				  	 you'll probably have an idea of already. Moving on, we'll give you a better idea of how we work globally, 
 				  	 and how the Strategic Business Units link together. Finally, we'll give you details about the team you'll
 				  	 be working with in the near future.</p>
+				  	 <h3 style={{fontSize: "35pt", textAlign: "left"}}>&nbsp;&nbsp;British Council Aims</h3>
+				  	<p style={{color: "#1abc9c", margin: "25px 25px", textAlign: "justify"}}>Our overall aims are. To maintain active interest in and support the work of the British Council, to 
+				  	further its aims and to promote its better knowledge among the public. To encourage the interests of its 
+				  	members where appropriate, particularly in the areas of education, the arts and community service.</p>
 				</div>
 
 				<div className="columns">

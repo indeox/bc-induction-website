@@ -30,7 +30,7 @@ export default class NeedToKnow extends Component {
 					            "Finish Up"
 		          			]}
 	          			/>
-	          			<br/><br/><br/><br/><br/><br/><br/>
+	          			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 				        <header className="jumbotron hero-spacer">
 				            <h2>Some Need to Know Information <span className="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h2>
 				            <hr></hr>
@@ -47,7 +47,7 @@ export default class NeedToKnow extends Component {
 				        				<div className="polaroid">
 				        					<a href='https://github.com/chrismphilp/bc-induction-website/raw/master/src/Images/Passport.pdf' rel="noopener noreferrer">
 				        						<img src={passport} alt='#' width='100%' />
-				        						<div id='container'>Check your E-Passport</div>
+				        						<div id='container' style={{fontSize: '15.5pt'}}>Check your E-Passport</div>
 				        					</a>
 				        				</div>
 				        			</div>
@@ -59,7 +59,7 @@ export default class NeedToKnow extends Component {
 				        				<div className="polaroid">
 				        					<a href='http://roam2.britishcouncil.org' target="_blank" rel="noopener noreferrer">
 				        						<img src={intranet} alt='#' width='100%' />
-				        						<div id='container'>Search the Intranet</div>
+				        						<div id='container' style={{fontSize: '15.5pt'}}>Search the Intranet</div>
 				        					</a>
 				        				</div>
 				        			</div>
@@ -71,7 +71,7 @@ export default class NeedToKnow extends Component {
 				        				<div className="polaroid">
 				        					<a href='https://www.britishcouncil.org/organisation/how-we-work/equality-diversity-inclusion' target="_blank" rel="noopener noreferrer">
 					        					<img src={edi} alt='#' width='100%' />
-					        					<div id='container'> <abbr title="Equality, Diversity, and Inclusion">EDI</abbr> Information</div>
+					        					<div id='container' style={{fontSize: '15.5pt'}}> <abbr title="Equality, Diversity, and Inclusion">EDI</abbr> Information<br/><br/></div>
 					        				</a>
 				        				</div>
 				        			</div>
@@ -83,7 +83,7 @@ export default class NeedToKnow extends Component {
 				        				<div className="polaroid">
 				        					<a href='https://www.britishcouncil.org/sites/default/files/code_of_conduct_may_2016.pdf' target="_blank" rel="noopener noreferrer">
 					        					<img src={logo} alt='#' width='100%' />
-					        					<div id='container'>Code of Conduct</div>
+					        					<div id='container' style={{fontSize: '15.5pt'}}>Code of Conduct<br/><br/></div>
 					        				</a>
 				        				</div>
 				        			</div>

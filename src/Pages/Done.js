@@ -4,6 +4,7 @@ import Parallax from "react-springy-parallax";
 import Footer from '../Components/Footer.js';
 import ProgressBar from '../Components/ProgressBar';
 // Images
+import '../CSS/done.css';
 
 export default class Done extends Component {
 
@@ -24,8 +25,7 @@ export default class Done extends Component {
           			]}
           			test={false}
 	      		/>
-	      		<br/><br/><br/><br/>
-	      		
+	      		<br/><br/><br/><br/><br/><br/>
 	      		<div className="container-fluid bg-2 text-center">
 				  	<h3 style={{fontSize: "35pt"}} className="margin">Congratulations! You have completed your 
 				  	British Council Induction...</h3>
@@ -37,6 +37,7 @@ export default class Done extends Component {
 				  	<h3 style={{color: "#1abc9c", margin: "30px 120px", textAlign: "justify"}}><b>Have a great first day
 				  	and we look forward to meeting you!</b></h3>
 				</div>
+
 				<Footer />
     		</Parallax>
     	);
