@@ -73,23 +73,13 @@ export default class BCDigital extends Component {
           										email=""
           										linkedIn=""
           										miniProfile={Kristen}
-          										name="Kristen"
+          										name="Kristine"
           										profileImage={Kristen}
           										roles="Web Development"
           										twitter=""
           									>
-	          									  I am interning with The British Council’s Digital Team 
-								              	located on the ominous 2nd floor of the London branch. Each day encompasses a range of frontend 
-								              	and backend site development as the team maintains and improves upon over 130 websites. The Digital 
-								              	Team currently employs the Kanban style of agile development. As such each member completes numerous 
-								              	broken up tasks or stories on a weekly basis.
-								              	<br/><br/>
-        												I will be returning to the University of St Andrews as a Magistrand or final year Computer 
-        												Science student. In my limited spare time, I can be found dancing with my fellow teammates 
-        												on the Blue Angels, Scotland’s leading competitive dance team, running along the coastal path, kayaking 
-        												next to the pier, or tutoring my fellow St Andreans. Generally speaking, I am looking forward to 
-        												completing my degree and reminding myself what freedom feels like and reacquainting myself with 
-        												the concept of “a good night’s sleep”.
+	          									  I chat a lot of shit, but thanks to the solutions master El Philpo, we pulled through.
+                                
 						              		</ProfileCard>
 										</div>
 										<div className="col-md-4">
