@@ -53,6 +53,11 @@ This is a prototype of a potential British Council Induction program, and not a 
 * **Christopher Philp** - *Lead Developer* - [GitHub](https://github.com/chrismphilp)
 * **Kristen Carter** - *Lead Developer* - [GitHub](https://github.com/kmc26)
 
+## Screenshots 
+
+![Homepage](https://raw.githubusercontent.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss1.png)
+![History](https://raw.githubusercontent.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss2.png)
+
 
 ## License
 
