@@ -12,7 +12,7 @@ To begin to use the induction program you must have `npm` installed. If you do n
 
 * [NPM](https://www.npmjs.com/get-npm) - Used to install the key dependencies needed to run the induction
 
-# Optional
+#### Optional
 
 * [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) - Needed if you want to clone the directory directly
 
