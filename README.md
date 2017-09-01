@@ -56,7 +56,15 @@ This is a prototype of a potential British Council Induction program, and not a 
 ## Screenshots 
 
 ![Homepage](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss1.png)
-![History](https://raw.githubusercontent.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss2.png)
+![History](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss2.png)
+![Values](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss3.png)
+![SBU](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss4.png)
+![SBU](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss5.png)
+![SBU](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss6.png)
+![Induction Code](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss7.png)
+![Induction Code](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss8.png)
+![Meet the Team](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss9.png)
+![Meet the Team](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss10.png)
 
 
 ## License
