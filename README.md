@@ -49,9 +49,9 @@ This is a prototype of a potential British Council Induction program, and not a 
 
 ## Built With
 
-* [react](https://facebook.github.io/react/) - Used to structure the whole site.
-* [react-router](https://reacttraining.com/react-router/) - Used to make the prototype a single-page application.
-* [react-springy-parallax](http://react-springy-parallax.surge.sh/) - Used to create the parallax scrolling effect.
+* [react](https://facebook.github.io/react/) - Used to structure the whole site
+* [react-router](https://reacttraining.com/react-router/) - Used to make the prototype a single-page application
+* [react-springy-parallax](http://react-springy-parallax.surge.sh/) - Used to create the parallax scrolling effect
 
 ## Authors
 
