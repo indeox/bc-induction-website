@@ -8,27 +8,31 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To begin to use the induction program you must have `npm` installed. If you do not, download it here
+To begin to use the induction program you must have `npm` installed. If you do not, download it here.
 
 * [NPM](https://www.npmjs.com/get-npm) - Used to install the key dependencies needed to run the induction
 
+# Optional
+
+* [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) - Needed if you want to clone the directory directly
+
 ### Installing
 
-1) First clone the repository
+1) First clone the repository.
 ```
 git clone git@github.com:chrismphilp/bc-induction-website.git
 ```
-2) Then, change or `cd` into the cloned directory
+2) Then, change or `cd` into the cloned directory.
 
 ```
 cd bc-induction-website
 ```
 
-3) Run the below command on the root of the directory 
+3) Run the below command on the root of the directory. 
 ```
 npm install
 ```
-4) Finally run this command
+4) Finally run this command.
 ```
 npm start
 ```
@@ -45,9 +49,9 @@ This is a prototype of a potential British Council Induction program, and not a 
 
 ## Built With
 
-* [react](https://facebook.github.io/react/) - Used to structure the whole site
-* [react-router](https://reacttraining.com/react-router/) - Used to make the prototype a single-page application
-* [react-springy-parallax](http://react-springy-parallax.surge.sh/) - Used to create the parallax scrolling effect
+* [react](https://facebook.github.io/react/) - Used to structure the whole site.
+* [react-router](https://reacttraining.com/react-router/) - Used to make the prototype a single-page application.
+* [react-springy-parallax](http://react-springy-parallax.surge.sh/) - Used to create the parallax scrolling effect.
 
 ## Authors
 
@@ -70,4 +74,4 @@ This is a prototype of a potential British Council Induction program, and not a 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
