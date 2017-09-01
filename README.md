@@ -55,7 +55,7 @@ This is a prototype of a potential British Council Induction program, and not a 
 
 ## Screenshots 
 
-![Homepage](https://raw.githubusercontent.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss1.png)
+![Homepage](https://github.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss1.png)
 ![History](https://raw.githubusercontent.com/chrismphilp/bc-induction-website/blob/master/src/Images/PrototypeScreenshots/ss2.png)
 
 
