@@ -32,6 +32,7 @@ export default class PageLayout extends Component {
 		return (
 			<main>
 				<Switch>
+				  <Route 	path='/' component={Introduction} />
 					<Route 	path='/BCDigital' render={() => <BCDigital inductionFormState={this.state.inductionForm} />} />
 					<Route 	path='/Done' component={Done} />
 					<Route 	path='/Introduction' component={Introduction} />
